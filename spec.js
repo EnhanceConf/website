@@ -42,6 +42,7 @@ module.exports = {
       files: [
         'style/style.css',
         'style/fonts.css',
+        'client/index-compiled.js',
         'images/icons/chat_icon.svg',
         'images/logo_main.svg',
         'images/avatars/dwyl.jpeg',
