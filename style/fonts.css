@@ -1,0 +1,45 @@
+/* ----------------------------------
+
+            K R O P P E N
+
+---------------------------------- */
+
+
+@font-face {
+    font-family: 'Kroppen-Regular';
+    src: url('../fonts/2E7DBB_3_0.eot');
+    src: url('../fonts/2E7DBB_3_0.eot') format('embedded-opentype'),
+         url('../fonts/2E7DBB_3_0.woff2') format('woff2'),
+         url('../fonts/2E7DBB_3_0.woff') format('woff'),
+         url('../fonts/2E7DBB_3_0.ttf') format('truetype'),
+         url('../fonts/2E7DBB_3_0.svg#Kroppen-Regular') format('svg');
+}
+
+ @font-face {
+    font-family: 'Kroppen-Italic';
+    src: url('../fonts/2E7DBB_1_0.eot');
+    src: url('../fonts/2E7DBB_1_0.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/2E7DBB_1_0.woff') format('woff'),
+         url('../fonts/2E7DBB_1_0.ttf') format('truetype'),
+         url('../fonts/2E7DBB_1_0.svg#Kroppen-Italic') format('svg');
+   }
+
+@font-face {
+    font-family: 'Kroppen-Bold';
+    src: url('../fonts/2E7DBB_2_0.eot');
+    src: url('../fonts/2E7DBB_2_0.eot') format('embedded-opentype'),
+         url('../fonts/2E7DBB_2_0.woff2') format('woff2'),
+         url('../fonts/2E7DBB_2_0.woff') format('woff'),
+         url('../fonts/2E7DBB_2_0.ttf') format('truetype'),
+         url('../fonts/2E7DBB_2_0.svg#Kroppen-Bold') format('svg');
+}
+
+ @font-face {
+    font-family: 'Kroppen-Bold-Italic';
+    src: url('../fonts/2E7DBB_0_0.eot');
+    src: url('../fonts/2E7DBB_0_0.eot') format('embedded-opentype'),
+         url('../fonts/2E7DBB_0_0.woff2') format('woff2'),
+         url('../fonts/2E7DBB_0_0.woff') format('woff'),
+         url('../fonts/2E7DBB_0_0.ttf') format('truetype'),
+         url('../fonts/2E7DBB_0_0.svg#Kroppen-Bold-Italic') format('svg');
+   }
