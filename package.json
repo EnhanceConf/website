@@ -6,7 +6,7 @@
   "scripts": {
     "start": "speclate --debug 5006",
     "build": "speclate --all",
-    "dev-watch": "nodemon --watch pages --watch components --watch pages/layout.html --watch styles --watch spec.js -e html,js,json  --watch speclate.js --exec npm run build",
+    "dev-watch": "nodemon --watch pages --watch components --watch pages/layout.html --watch style --watch spec.js -e html,js,json,css  --watch speclate.js --exec npm run build",
 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
