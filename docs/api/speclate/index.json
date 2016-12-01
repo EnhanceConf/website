@@ -1,8 +1,8 @@
 {
     "page": "home",
     "spec": {
-        "#reviews": {
-            "component": "quotes"
+        "#next_edition": {
+            "component": "updates"
         }
     }
 }

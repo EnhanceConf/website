@@ -1,8 +1,0 @@
-{
-    "page": "workshop",
-    "selectors": {
-        ".workshop": {
-            "className": "active"
-        }
-    }
-}

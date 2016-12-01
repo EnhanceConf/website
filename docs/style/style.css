@@ -7,8 +7,12 @@
 
 
 
-
 --------------------------------------------- */
+
+body {
+    background-color: #D4D8D9;
+}
+
 
 /* ------------- TEXT STYLES --------------- */
 
@@ -40,6 +44,14 @@ h2 {
     letter-spacing: 0.06em !important;
 }
 
+h5 {
+    font-family: 'Lato', sans-serif; !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8em !important;
+    letter-spacing: 0.02em !important;
+}
+
 h6, ul.footer_nav a {
     font-family: 'Lato', sans-serif; !important;
     font-style: normal;
@@ -65,6 +77,14 @@ p.author {
     letter-spacing: 0.05em;
 }
 
+footer p {
+    font-family: 'Lato', sans-serif; !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.75em;
+    line-height: 1.5em;
+    letter-spacing: 0.05em;
+}
 
 ul.attendee-notes {
     font-family: 'Lato', sans-serif; !important;
@@ -76,7 +96,8 @@ ul.attendee-notes {
 
 .white, .white a {color: white !important;}
 .black, .black a {color: rgba(0,0,0,0.80) !important;}
-.gray, .gray a {color: rgba(0,0,0,0.55) !important;}
+.gray, .gray a {color: rgba(0,0,0,0.55);}
+.lgray, .lgray a {color: rgba(26,25,25,0.3);}
 .green, .green a {color: #60AB32 !important;}
 .magenta, .magenta a {color: #D91E57 !important;}
 
@@ -122,6 +143,7 @@ textarea:focus, input:focus, button:focus {
     width: 100%;
     min-height: 12%;
     z-index: 2;
+    padding-top: 1.8em;
     background: white;
 }
 
@@ -138,9 +160,9 @@ div.content#next_edition {
 /* ------------- HEADER --------------- */
 
 header {
-    background-color: white;
+    background-color: transparent !important;
     width: 100%;
-    height: 6.05em;
+    height: 0;
     position: fixed;
     top: 0;
     left: 0;
@@ -151,15 +173,15 @@ header img.logo {
     width: 1.1em;
     height: auto;
     position: fixed;
-    top: 1.6em;
-    left: 1.5em;
+    top: 1.5em;
+    left: 1em;
 }
 
 ul.header_nav  {
     list-style: none;
     position: fixed;
     top: 0.5em;
-    right: 1em;
+    right: 0.5em;
 }
 
 ul.header_nav li {
@@ -173,7 +195,7 @@ header img#email {
     margin-bottom: 0.03em;
 }
 
-i.fa-twitter {color: rgba(26, 25, 25, 0.3); font-size: 1.3em;}
+i.fa { color: #B4B4B4 !important; font-size: 1.3em;}
 
 header a:hover {opacity: 0.6;}
 
@@ -181,11 +203,11 @@ header a:hover {opacity: 0.6;}
 /* ------------- INTRO --------------- */
 
 div.content#intro {
-    padding-top: 6em;
+    padding-top: 4em;
     padding-bottom: 4em;
 }
 
-div.intro-logo {padding: 2.5em 0;}
+div.intro-logo {padding: 1em 0;}
 
 div.intro-logo img {
     width: 100%;
@@ -447,17 +469,25 @@ footer {
 }
 
 img.logo_dotjs {
-    width: 9em;
+    width: 8em;
     height: auto;
 }
 
-div#footer_col1 {text-align: center; margin-top: 5em;}
-div#footer_col2 {text-align: center; margin-top: -9.5em;}
+div#footer_col1 {text-align: center; margin-top: 0;}
+div#footer_col2 {text-align: center; margin-top: 0;}
+div#footer_col3 {text-align: center; margin-top: 0;}
+
+footer hr {
+    width: 10em;
+    border: solid 1px #cdcdcd;
+    margin: 0 auto 1.8em;
+}
+
+footer h5 {padding: 0; margin: 0;}
 
 footer h6 {margin: 2em 0;}
 
-
-ul.footer_nav {
+ul.footer_nav, ul.footer_social {
     list-style: none;
     padding: 0;
     text-align: center;
@@ -465,21 +495,49 @@ ul.footer_nav {
 
 ul.footer_nav li {
     display: inline-block;
-    margin: 0 5%;
+    margin: 0 2%;
 }
 
-ul.footer_nav a{
-    font-family: 'Lato', sans-serif; !important;
-    font-style: normal;
-    font-weight: 400;
-	font-size: 1.2em;
-	color: #797979;
-}
+
 
 ul.footer_nav a:hover {
     color: #D91E57 !important;
 }
 
+ul.footer_social li {
+    display: inline-block;
+    margin: 0 0.4em;
+}
+
+
+footer p {
+    max-width: 19em;
+    margin: 1em auto;
+}
+
+div#footer_col1 h6 {margin: 3.5em 0 1.3em !important;}
+
+footer a:hover {opacity: 0.6;}
+
+
+/* ----------------------------------------------
+
+
+
+                    >360px
+
+
+
+
+--------------------------------------------- */
+@media only screen and (min-width: 360px) and (max-width: 568px) {
+ /* ------------- Footer --------------- */
+
+    ul.footer_nav li {
+        margin: 0 4% !important;
+    }
+
+}
 /* ----------------------------------------------
 
 
@@ -611,6 +669,9 @@ div.form_submit {
     width: 35% !important;
 }
 
+
+
+
 }
 /* ----------------------------------------------
 
@@ -622,19 +683,29 @@ div.form_submit {
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
 
 
-    /* ------------- Footer --------------- */
 
-    div#footer_col1,
-    div#footer_col2 {
-        margin-top: 0 !important;
+
+/* ------------- Footer --------------- */
+
+    ul.footer_nav li {
+        margin: 0 5% !important;
     }
 
-    div#footer_col1 {text-align: left;}
-    div#footer_col2, ul.footer_nav {text-align: right;}
 
-    footer h6 {margin: 1.5em 0 !important;}
+    div#footer_col1 {text-align: center !important; margin-top: 13em;}
+    div#footer_col2, div#footer_col3 {text-align: left !important; margin-top: -16.5em;}
 
-    ul.footer_nav {margin-top: 2.2em;}
+
+    ul.footer_nav, footer p, ul.footer_social {text-align: left !important;}
+
+
+    ul.footer_nav li {margin: 0 5% 0 0 !important;}
+
+    footer p {margin: 1em 0 0 !important; max-width: 22em !important;}
+
+    ul.footer_social li {
+        margin: 0 0.8em 0 0 !important;
+    }
 
 }
 /* ----------------------------------------------
@@ -660,7 +731,7 @@ div.form_submit {
 
 @media only screen and (min-width: 1024px) {
 
-
+    .mobile {display: none !important;}
 
 
 /* ------------- TEXT STYLES --------------- */
@@ -676,7 +747,7 @@ h1 {
 
 /* ------------- CONTENT --------------- */
 
-div.content, footer {
+div#black_mask, div.content, footer {
     padding: 0 10%;
 }
 
@@ -826,7 +897,7 @@ button#submit img {display: none;}
 
 button#submit {
     width:100%;
-    min-width: 9em;
+    min-width: 8em;
     max-width: 15em;
 }
 
@@ -847,25 +918,41 @@ ul.next_edition_timer li {margin: 0 0.5em;}
 /* ------------- Footer --------------- */
 
     footer {
-        padding-top: 3em !important;
-        padding-bottom: 4em !important;
+        padding-top: 4em !important;
+        padding-bottom: 3em !important;
         }
 
     div#footer_col1,
-    div#footer_col2 {
+    div#footer_col2,
+    div#footer_col3 {
         margin-top: 0 !important;
+        text-align: left !important;
     }
 
-    div#footer_col1 {text-align: left;}
-    div#footer_col2, ul.footer_nav {text-align: right;}
 
-    footer h6 {margin: 1.5em 0 !important;}
 
-    ul.footer_nav {margin-top: 2.2em;}
+    div#footer_col1 div.content_wrap {border-right: solid 1px #cdcdcd; padding: 1em 0; max-width: 14em;}
+
+    div#footer_col1 h6 {margin: 0 0 1.3em !important;}
+
+
+    ul.footer_nav, footer p, ul.footer_social {text-align: left !important;}
+
+    ul.footer_nav li {margin: 0 10% 0 0 !important;  padding: 0}
+
+    ul.footer_nav {padding-left: 10%;}
+
+    footer p {margin: 1em 0 0 !important; max-width: 22em;}
+
+    ul.footer_social li {
+        margin: 0 0.8em 0 0 !important;
+    }
+
+     div#footer_col3 div.content_wrap {padding-left: 10%;}
 }
 /* ----------------------------------------------
 
-         > 1200px Small Desktop
+         < 1200px Small Desktop
 
 --------------------------------------------- */
 @media only screen and (min-width: 1024px) and (max-width:1200px) {
@@ -881,6 +968,10 @@ ul.next_edition_timer li {margin: 0 0.5em;}
         margin: 6.5em auto;
     }
 
+
+    div#footer_col3 div.content_wrap {padding-left: 23%;}
+
+    footer p {max-width: 19em !important;}
 }
 /* ----------------------------------------------
 
@@ -931,19 +1022,25 @@ div#next_edition h1 {
 
 
 
+/* ------------- Footer --------------- */
+
+
+
+  div#footer_col3 div.content_wrap {padding-left: 20%;}
+
+
+
 }
 
-
-
-/* ------------- Next Edition --------------- */
-
-div#next_edition h1 {
-    width: 90% !important;
-}
-
-
-
-
-
-
+/* ------------- Pages --------------- */
+.content p {
+    text-align: left;
+    line-height: 1.7em;
+        font-style: normal;
+        margin-bottom: 1.2em;
+    font-weight: 300;
+    font-size: 1.13em;
+    color: rgba(0,0,0,0.60);
+    letter-spacing: 0.02em;
+    font-family: 'Lato', sans-serif;
 }

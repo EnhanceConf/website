@@ -1,5 +1,10 @@
 {
     "page": "contact",
+    "spec": {
+        "#next_edition": {
+            "component": "updates"
+        }
+    },
     "selectors": {
         ".contact": {
             "className": "active"
