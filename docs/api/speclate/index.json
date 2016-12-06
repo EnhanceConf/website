@@ -1,8 +1,0 @@
-{
-    "page": "home",
-    "spec": {
-        "#next_edition": {
-            "component": "updates"
-        }
-    }
-}
