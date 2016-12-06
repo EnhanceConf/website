@@ -4,11 +4,13 @@
   "scripts": {
     "start": "speclate --debug 5006",
     "build": " npm run client && speclate --all",
-    "client": "mkdir -p ./docs/client && browserify ./client/index.js > ./client/index-compiled.js",
-    "dev-watch": "nodemon --watch pages --watch components --watch pages/layout.html --watch style --watch spec.js --watch client/index.js -e html,js,json,css  --exec npm run build"
+    "client": "mkdir -p ./docs/client && browserify ./client/index.js > ./client/index-compiled.js && npm run service-worker",
+    "dev-watch": "nodemon --watch pages --watch components --watch pages/layout.html --watch style --watch spec.js --watch client/index.js -e html,js,json,css  --exec npm run build",
+    "service-worker": "browserify ./client/service-worker.js > ./docs/service-worker.js"
   },
   "devDependencies": {
     "jquery": "^3.1.1",
-    "speclate": "7.x.x"
+    "speclate": "7.x.x",
+    "speclate-router": "^4.0.2"
   }
 }
