@@ -3,6 +3,7 @@ CACHE MANIFEST
 /pages/layout.html
 style/style.css
 style/fonts.css
+client/index-compiled.js
 images/icons/chat_icon.svg
 images/logo_main.svg
 images/avatars/dwyl.jpeg
@@ -17,6 +18,8 @@ images/logo_symbol.svg
 icons/email_icon_w.svg
 images/dotjs-small.png
 images/favicon.png
+images/icons/twitter.svg
+images/icons/github.svg
 
 /index.html
 /pages/home/home.html
@@ -34,6 +37,6 @@ images/favicon.png
 /pages/terms/terms.html
 /api/speclate/terms.json
 /components/updates/updates.html
-# v-1480585722025
+# v-1481568784744
 NETWORK:
 *
