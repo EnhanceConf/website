@@ -31,32 +31,32 @@ p.bodytext {
 
 
 h1 {
-    font-family: Kroppen-Regular, sans-serif;
+    font-family: Kroppen-Regular, sans-serif !important;
     font-size: 1.5em !important;
     letter-spacing: 0.13em !important;
     line-height: 1.3em !important;
 }
 
 h2 {
-    font-family: 'Lato', sans-serif; !important;
-    font-style: normal;
+    font-family: 'Lato', sans-serif !important;
+    font-style: normal !important;
     font-weight: 700;
     font-size: 1em !important;
     letter-spacing: 0.06em !important;
 }
 
 h5 {
-    font-family: 'Lato', sans-serif; !important;
-    font-style: normal;
-    font-weight: 400;
+    font-family: 'Lato', sans-serif !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
     font-size: 0.8em !important;
     letter-spacing: 0.02em !important;
 }
 
 h6, ul.footer_nav a {
     font-family: 'Lato', sans-serif; !important;
-    font-style: normal;
-    font-weight: 400;
+    font-style: normal !important;
+    font-weight: 400 !important;
     font-size: 0.75em !important;
     letter-spacing: 0.02em !important;
 }
@@ -64,35 +64,35 @@ h6, ul.footer_nav a {
 
 p.tweet {
     font-family: 'Lato', sans-serif; !important;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 0.875em;
-    line-height: 1.6em;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 0.875em !important;
+    line-height: 1.6em !important;
 }
 
 p.author {
     font-family: 'Lato', sans-serif; !important;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 0.75em;
-    letter-spacing: 0.05em;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 0.75em !important;
+    letter-spacing: 0.05em !important;
 }
 
 footer p {
     font-family: 'Lato', sans-serif; !important;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 0.75em;
-    line-height: 1.5em;
-    letter-spacing: 0.05em;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 0.75em !important;
+    line-height: 1.5em !important;
+    letter-spacing: 0.05em !important;
 }
 
 ul.attendee-notes {
     font-family: 'Lato', sans-serif; !important;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 0.75em;
-    letter-spacing: 0.1em;
+    font-style: normal !important;
+    font-weight: 300 !important;
+    font-size: 0.75em !important;
+    letter-spacing: 0.1em !important;
 }
 
 .white, .white a {color: white !important;}
@@ -187,7 +187,6 @@ ul.header_nav  {
 
 ul.header_nav li {
     display: inline-block;
-    margin: 0 0.4em;
 }
 
 header img#email {
@@ -273,6 +272,7 @@ blockquote.twitter-tweet img {
 p.tweet a {
     color: #2F79B0;
 }
+
 
 blockquote.twitter-tweet a:hover {
     opacity: 0.7;
@@ -378,7 +378,7 @@ input#email:-ms-input-placeholder { /* Internet Explorer 10-11 */
 
 div.form_submit {
     width: 20%;
-    margin-top: 0.02em;
+    margin-top: 0;
     float: left;
     border: solid 0.31em white;
     border-top-right-radius: 3em;
@@ -474,9 +474,9 @@ img.logo_dotjs {
     height: auto;
 }
 
-div#footer_col1 {text-align: center; margin-top: 0;}
-div#footer_col2 {text-align: center; margin-top: 0;}
-div#footer_col3 {text-align: center; margin-top: 0;}
+div#footer_col1 {text-align: center; margin-top: 16em;}
+div#footer_col2 {text-align: center; margin-top: -21em;}
+div#footer_col3 {text-align: center; margin-top: -16em;}
 
 footer hr {
     width: 10em;
@@ -584,13 +584,15 @@ div#testimonials.title {
 }
 
 div.tweet {
-    padding-left: 7em;
+    padding: 2.14em 0 0 7em;
 }
 
 div.tweet p {
     text-align: left !important;
 }
 
+p.author {margin: 0;}
+p.tweet {margin-top: 0.5em;}
 
 
 blockquote.twitter-tweet img {
@@ -691,7 +693,8 @@ div.form_submit {
 
 
     div#footer_col1 {text-align: center !important; margin-top: 13em;}
-    div#footer_col2, div#footer_col3 {text-align: left !important; margin-top: -16.5em;}
+    div#footer_col2 {text-align: left !important; margin-top: -17.5em;}
+    div#footer_col3 {text-align: left !important; margin-top: -16.5em;}
 
 
     ul.footer_nav, footer p, ul.footer_social {text-align: left !important;}
@@ -803,17 +806,16 @@ div#testimonials.title {
 }
 
 div.tweet {
-    padding-left: 7em;
+    padding: 2.1em 0 0 7em;
 }
 
 div.tweet p {
     text-align: left !important;
 }
 
-p.author {
-    position: relative;
-    top: 8.5em;
-}
+p.author {margin: 0;}
+p.tweet {margin-top: 0.5em;}
+
 
 blockquote.twitter-tweet img {
     float: left !important;
@@ -861,7 +863,7 @@ div#next_edition p.bodytext {
 
 
 .form_container {
-    margin: 4.15em auto;
+    margin: 3.15em auto;
     width: 95%;
     padding-left: 5%;
 }
@@ -917,7 +919,7 @@ ul.next_edition_timer li {margin: 0 0.5em;}
 
     footer {
         padding-top: 4em !important;
-        padding-bottom: 3em !important;
+        padding-bottom: 2.9em !important;
         }
 
     div#footer_col1,
@@ -929,7 +931,7 @@ ul.next_edition_timer li {margin: 0 0.5em;}
 
 
 
-    div#footer_col1 div.content_wrap {border-right: solid 1px #cdcdcd; padding: 1em 0; max-width: 14em;}
+    div#footer_col1 div.content_wrap {border-right: solid 1px #cdcdcd; padding: 0; max-width: 14em;}
 
     div#footer_col1 h6 {margin: 0 0 1.3em !important;}
 
@@ -938,7 +940,7 @@ ul.next_edition_timer li {margin: 0 0.5em;}
 
     ul.footer_nav li {margin: 0 10% 0 0 !important;  padding: 0}
 
-    ul.footer_nav {padding-left: 10%;}
+    ul.footer_nav {margin: 0; padding-left: 10%;}
 
     footer p {margin: 1em 0 0 !important; max-width: 22em;}
 
@@ -947,6 +949,7 @@ ul.next_edition_timer li {margin: 0 0.5em;}
     }
 
      div#footer_col3 div.content_wrap {padding-left: 10%;}
+
 }
 /* ----------------------------------------------
 
@@ -964,6 +967,11 @@ ul.next_edition_timer li {margin: 0 0.5em;}
 
     .form_container {
         margin: 6.5em auto;
+    }
+
+
+    div.tweet {
+        padding: 1.5em 0px 0px 7em !important;
     }
 
 
@@ -1009,6 +1017,9 @@ div#last_edition .bodytext {margin-top: 1.6em;}
 
 
 
+
+
+
 /* ------------- Next Edition --------------- */
 
 div#next_edition h1 {
@@ -1030,8 +1041,15 @@ div#next_edition h1 {
 
 }
 
+
+
 /* ------------- Pages --------------- */
-.content p {
+
+div.code-of-conduct {
+  margin: 5em auto;
+}
+
+div.code-of-conduct p {
     text-align: left;
     line-height: 1.7em;
         font-style: normal;
