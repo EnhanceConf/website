@@ -42,6 +42,8 @@ module.exports = {
       files: [
         'style/style.css',
         'style/fonts.css',
+        'style/pure-0.6.0/pure-min.css',
+        'style/pure-0.6.0/grids-responsive-min.css',
         'client/index-compiled.js',
         'images/icons/chat_icon.svg',
         'images/logo_main.svg',
