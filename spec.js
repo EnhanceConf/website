@@ -56,7 +56,9 @@ module.exports = {
         'images/logo_symbol.svg',
         'icons/email_icon_w.svg',
         'images/dotjs-small.png',
-        'images/favicon.png'
+        'images/favicon.png',
+        'images/icons/twitter.svg',
+        'images/icons/github.svg'
       ]
   }
 }
