@@ -11,6 +11,7 @@
   "devDependencies": {
     "jquery": "^3.1.1",
     "speclate": "7.x.x",
-    "speclate-router": "^4.0.2"
+    "speclate-router": "^4.0.2",
+    "speclate-service-worker": "^1.2.0"
   }
 }
