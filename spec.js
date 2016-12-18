@@ -48,6 +48,7 @@ module.exports = {
         'images/icons/chat_icon.svg',
         'images/logo_main.svg',
         'images/avatars/dwyl.jpeg',
+        'images/avatars/PenmanRoss.jpg',
         'images/icons/pen_icon.svg',
         'fonts/2E7DBB_3_0.ttf',
         'fonts/2E7DBB_3_0.woff',
