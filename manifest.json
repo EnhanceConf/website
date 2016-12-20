@@ -1,0 +1,19 @@
+{
+  "name": "EnhanceConf",
+  "start_url": "./?utm_source=web_app_manifest",
+  "short_name": "EnhanceConf",
+  "theme_color": "#46483D",
+  "background_color": "#46483D",
+  "default_locale": "en",
+  "description": "EnhanceConf London Holding page",
+   "icons": [{
+      "src": "/images/favicon/favicon.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }, {
+      "src": "/images/favicon/favicon.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+    ]
+}

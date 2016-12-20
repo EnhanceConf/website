@@ -61,7 +61,8 @@ module.exports = {
         'images/dotjs-small.png',
         'images/favicon.png',
         'images/icons/twitter.svg',
-        'images/icons/github.svg'
+        'images/icons/github.svg',
+        'manifest.json'
       ]
   }
 }
