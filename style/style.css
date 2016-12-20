@@ -178,18 +178,20 @@ header img.logo {
     left: 1em;
 }
 
-ul.header_nav  {
+nav.header_nav  {
     list-style: none;
     position: fixed;
-    top: 0.5em;
-    right: 0.5em;
+    top: 1.5em;
+    right: 1.5em;
 }
 
-ul.header_nav li {
-    display: inline-block;
+nav.header_nav li {
+    margin-left:.5em;
+    margin-bottom:.2em;
+
 }
 
-header img#email {
+header nav li img {
     width: 1.3em;
     height: auto;
     margin-bottom: 0.03em;
@@ -510,6 +512,9 @@ ul.footer_social li {
     display: inline-block;
     margin: 0 0.4em;
 }
+ul.footer_social li img {
+    width: 20px;
+}
 
 
 footer p {
@@ -768,12 +773,13 @@ header img.logo {
     left: 2em !important;
 }
 
-ul.header_nav  {
-    top: 1em !important;
-    right: 1em !important;
-}
 
-ul.header_nav li {margin: 0 0.4em !important;}
+
+nav.header_nav li {
+
+    display: inline-block;
+    margin: 0 0.4em !important;
+}
 
 /* ------------- LAST EDITION --------------- */
 
@@ -1001,12 +1007,12 @@ div.content, footer {
 /* ------------- HEADER --------------- */
 
 
-ul.header_nav  {
-    top: 1em !important;
+nav.header_nav  {
+    top: 2em !important;
     right: 2em !important;
 }
 
-ul.header_nav li {margin: 0 0.8em !important;}
+nav.header_nav li {margin: 0 0.8em !important;}
 
 /* ------------- BUTTON --------------- */
 
