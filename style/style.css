@@ -181,21 +181,20 @@ header img.logo {
 nav.header_nav  {
     list-style: none;
     position: fixed;
-    top: 1.5em;
-    right: 1.5em;
+    top: 1.4em;
+    right: 1em;
 }
 
-nav.header_nav li {
-    margin-left:.5em;
-    margin-bottom:.2em;
-
+nav.header_nav a {
+    display: block;
 }
 
-header nav li img {
+nav.header_nav img {
     width: 1.3em;
     height: auto;
     margin-bottom: 0.03em;
 }
+
 
 i.fa { color: #B4B4B4 !important; font-size: 1.3em;}
 
@@ -775,7 +774,7 @@ header img.logo {
 
 
 
-nav.header_nav li {
+nav.header_nav a {
 
     display: inline-block;
     margin: 0 0.4em !important;
@@ -1012,7 +1011,10 @@ nav.header_nav  {
     right: 2em !important;
 }
 
-nav.header_nav li {margin: 0 0.8em !important;}
+nav.header_nav a {
+
+    margin: 0 0.8em !important;
+    }
 
 /* ------------- BUTTON --------------- */
 
