@@ -1,45 +1,25 @@
 module.exports = {
-  "/index.html": {
-      page: 'home',
-      spec: {
-          '#next_edition': {
-              component: 'updates'
-          }
-      }
-  },
-  "/contact.html": {
-    page: 'contact',
-    spec: {
-        '#next_edition': {
-             component: 'updates'
-              }
+    "/index.html": {
+        page: 'home',
+        spec: {
+            '#next_edition': {
+                component: 'updates'
+            }
+        }
     },
-    selectors: {
-    '.contact': {
-       className: 'active'
-    }
-    }
-  },
-   "/code-of-conduct.html": {
-    page: 'code-of-conduct',
-        spec: {
-        '#next_edition': {
-             component: 'updates'
-              }
-    }
-  },
-  "/terms.html": {
-    page: 'terms',
-        spec: {
-        '#next_edition': {
-             component: 'updates'
-              }
-    }
-  },
+    "/contact.html": {
+        page: 'contact'
+    },
+    "/code-of-conduct.html": {
+        page: 'code-of-conduct'
+    },
+    "/terms.html": {
+        page: 'terms'
+    },
 
-  options: {
-      outputDir: '/docs',
-      files: [
+    options: {
+        outputDir: '/docs',
+        files: [
         '/style/style.css',
         'style/fonts.css',
         'style/pure-0.6.0/pure-min.css',
@@ -57,13 +37,11 @@ module.exports = {
         'images/icons/email_icon.svg',
         'images/icons/email_icon_w.svg',
         'images/logo_symbol.svg',
-        //'icons/email_icon_w.svg',
         'images/dotjs-small.png',
         'images/favicon.png',
         'images/icons/twitter.svg',
         'images/icons/github.svg',
         'manifest.json'
-      ]
-  }
+        ]
+    }
 }
-
