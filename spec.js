@@ -1,11 +1,6 @@
 module.exports = {
     "/index.html": {
-        page: 'home',
-        spec: {
-            '#next_edition': {
-                component: 'updates'
-            }
-        }
+        page: 'home'
     },
     "/contact.html": {
         page: 'contact'

@@ -14,7 +14,8 @@ body {
 }
 
 #container {
-    min-height: 70vh;
+    min-height: 100vh;
+    transition: height 1s linear;
 }
 
 
