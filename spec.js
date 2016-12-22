@@ -22,12 +22,24 @@ module.exports = {
         'client/index-compiled.js',
         'images/icons/chat_icon.svg',
         '/images/logo_main.svg',
+
+        // avatars
         'images/avatars/dwyl.jpeg',
         'images/avatars/PenmanRoss.jpg',
+        '/images/avatars/ed_horsford.jpeg',
         'images/icons/pen_icon.svg',
+        '/images/avatars/paul_downey_psd.jpeg',
+
+        // fonts
         'fonts/2E7DBB_3_0.ttf',
         'fonts/2E7DBB_3_0.woff',
         'fonts/2E7DBB_3_0.woff2',
+        'fonts/Lato-Regular.eot',
+        'fonts/Lato-Regular.eot',
+        'fonts/Lato-Regular.woff2',
+        'fonts/Lato-Regular.woff',
+        'fonts/Lato-Regular.ttf',
+
         'images/photo_bg.jpg',
         'images/icons/email_icon.svg',
         'images/icons/email_icon_w.svg',

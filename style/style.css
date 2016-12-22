@@ -14,8 +14,8 @@ body {
 }
 
 #container {
-    min-height: 100vh;
-    transition: height 1s linear;
+    transition: min-height 1s;
+    min-height: 50vh;
 }
 
 
@@ -186,7 +186,7 @@ header img.logo {
 nav.header_nav  {
     list-style: none;
     position: fixed;
-    top: 1.4em;
+    top: 1.5em;
     right: 1em;
 }
 
@@ -640,8 +640,8 @@ ul.attendee-notes li {
     display: inline-block;
 }
 
-ul.attendee-notes li.margin{
-      margin-left: 15%;
+ul.attendee-notes li{
+      margin-left: 10%;
 }
 
 /* ------------- Next Edition --------------- */
@@ -1059,7 +1059,9 @@ div#next_edition h1 {
 
 
 
-
+.content {
+    min-height: 10em;
+}
 
 
 /* ------------- Footer --------------- */
