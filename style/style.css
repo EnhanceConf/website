@@ -242,6 +242,19 @@ p#last_edition_text2 {margin-bottom: 2.5em;}
 
 /* ------------- VIDEO --------------- */
 
+
+div#video {
+animation-duration: 2s;
+  animation-name: fadein;
+  animation-iteration-count: 1;
+}
+
+@-webkit-keyframes fadein {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
 div#video iframe {
         margin: 1em auto;
         width: 100%;
