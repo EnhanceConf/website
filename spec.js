@@ -28,7 +28,7 @@ module.exports = {
         'images/avatars/PenmanRoss.jpg',
         '/images/avatars/ed_horsford.jpeg',
         'images/icons/pen_icon.svg',
-        '/images/avatars/paul_downey_psd.jpeg',
+        '/images/avatars/psd.jpg',
 
         // fonts
         'fonts/2E7DBB_3_0.ttf',
