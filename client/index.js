@@ -3,8 +3,13 @@ var appCacheNanny = require('appcache-nanny')
 window.$ = require('jquery')
 
 router({
-  after: function () {
-    $('html,body').scrollTop($('#container'))
+  after: function (error,  markup, page) {
+    var scrollTo = 0;
+    if(page.page !== 'home') {
+        scrollTo = $('#container').position().top - 30
+    }
+    $('html,body').scrollTop(scrollTo)
+
   },
   error: function (err, $container) {
     if (err) {
