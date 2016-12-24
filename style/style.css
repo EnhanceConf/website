@@ -13,11 +13,9 @@ body {
     background-color: #D4D8D9;
 }
 
-#container {
-    transition: min-height 1s;
-    min-height: 50vh;
+#container.loading {
+    height: 120vh;
 }
-
 
 /* ------------- TEXT STYLES --------------- */
 
@@ -812,7 +810,7 @@ div#last_edition_text h1 {line-height: 0.6em !important;}
 
 /* ------------- VIDEO --------------- */
 
-div#video {padding-top: 1.8em;}
+div#video {padding-top: 1.9em;}
 
 div#video iframe {
     height: 25em !important;
