@@ -40,6 +40,18 @@ module.exports = {
         'fonts/Lato-Regular.woff',
         'fonts/Lato-Regular.ttf',
 
+        'fonts/lato/webfont/Lato-hairline.eot',
+        'fonts/lato/webfont/Lato-hairline.svg',
+        'fonts/lato/webfont/Lato-hairline.ttf',
+        'fonts/lato/webfont/Lato-hairline.woff',
+        'fonts/lato/webfont/Lato-hairline.woff2',
+
+        'fonts/Lato-Regular.eot',
+        'fonts/Lato-Regular.woff2',
+        'fonts/Lato-Regular.woff',
+        'fonts/Lato-Regular.ttf',
+
+
         'images/photo_bg.jpg',
         'images/icons/email_icon.svg',
         'images/icons/email_icon_w.svg',

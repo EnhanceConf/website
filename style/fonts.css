@@ -47,11 +47,16 @@
 
 
  @font-face {
-    font-family: 'Lato';
-    src: url('../fonts/Lato-Regular.eot');
-    src: url('../fonts/Lato-Regular.eot') format('embedded-opentype'),
-         url('../fonts/Lato-Regular.woff2') format('woff2'),
-         url('../fonts/Lato-Regular.woff') format('woff'),
-         url('../fonts/Lato-Regular.ttf') format('truetype');
+    font-family: 'Lato',
+    font-weight: 200;
+
+        src: url('../fonts/lato/webfont/Lato-hairline.eot');
+        src: url('../fonts/lato/webfont/Lato-hairline.eot') format('embedded-opentype'),
+         url('../fonts/lato/webfont/Lato-hairline.woff2') format('woff2'),
+         url('../fonts/lato/webfont/Lato-hairline.woff') format('woff'),
+         url('../fonts/lato/webfont/Lato-hairline.ttf') format('truetype'),
+         url('../fonts/lato/webfont/Lato-hairline.svg#Kroppen-Bold-Italic') format('svg');
+
+
    }
 

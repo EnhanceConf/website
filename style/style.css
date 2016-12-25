@@ -22,7 +22,7 @@ body {
 p, h1, h2, h3 {text-align: center;}
 
 p.bodytext {
-    font-family: 'Lato', sans-serif;
+    font-family: 'LatoReg', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 1.13em;
