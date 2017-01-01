@@ -47,9 +47,7 @@
 
 
  @font-face {
-    font-family: 'Lato',
-    font-weight: 200;
-
+    font-family: 'Lato', sans-serif;
         src: url('../fonts/lato/webfont/Lato-hairline.eot');
         src: url('../fonts/lato/webfont/Lato-hairline.eot') format('embedded-opentype'),
          url('../fonts/lato/webfont/Lato-hairline.woff2') format('woff2'),

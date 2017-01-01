@@ -11,6 +11,20 @@
 
 body {
     background-color: #D4D8D9;
+
+    font-family: 'LatoReg', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 1.13em;
+    color: rgba(0,0,0,0.60);
+    line-height: 1.7em;
+    letter-spacing: 0.0em;
+        display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+
 }
 
 #container.loading {
@@ -21,15 +35,7 @@ body {
 
 p, h1, h2, h3 {text-align: center;}
 
-p.bodytext {
-    font-family: 'LatoReg', sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 1.13em;
-    color: rgba(0,0,0,0.60);
-    line-height: 1.7em;
-    letter-spacing: 0.02em;
-}
+
 
 
 
@@ -41,11 +47,11 @@ h1 {
 }
 
 h2 {
-    font-family: 'Lato', sans-serif !important;
-    font-style: normal !important;
-    font-weight: 700;
-    font-size: 1em !important;
-    letter-spacing: 0.06em !important;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1em;
+    letter-spacing: 0.01em;
 }
 
 h5 {
@@ -66,11 +72,9 @@ h6, ul.footer_nav a {
 
 
 p.tweet {
-    font-family: 'Lato', sans-serif; !important;
-    font-style: normal !important;
-    font-weight: 400 !important;
-    font-size: 0.875em !important;
-    line-height: 1.6em !important;
+    font-weight: 400;
+    font-size: 0.875em;
+    line-height: 1.6em;
 }
 
 p.author {
@@ -285,6 +289,7 @@ blockquote.twitter-tweet {text-align: center; margin-bottom: 2.5em; }
 blockquote.twitter-tweet img {
     border-radius: 6em;
     width: 5em;
+
 }
 
 
@@ -618,9 +623,9 @@ p.tweet {margin-top: 0.5em;}
 
 
 blockquote.twitter-tweet img {
-    float: left !important;
-    position: relative !important;
-    top: 1.7em !important;
+    float: left;
+    position: relative;
+    top: 2.6em;
 }
 
  /* ------------- Attendee Notes --------------- */
@@ -868,8 +873,8 @@ ul.attendee-notes {
 /* ------------- Next Edition --------------- */
 
 div#black_mask {
-    padding-top: 7em !important;
-    padding-bottom: 4em !important;
+    padding-top: 4em;
+    padding-bottom: 4em;
 }
 
 div#next_edition h1 {
@@ -880,16 +885,15 @@ div#next_edition h1 {
 }
 
 div#next_edition p.bodytext {
-    margin: 1em 0 0 !important;
     max-width: 26em;
-    width: 80%;
+    width: 100%;
 }
 
 /* Newsletter Form */
 
 
 .form_container {
-    margin: 3.15em auto;
+    margin: 5.5em auto;
     width: 95%;
     padding-left: 5%;
 }
@@ -1085,9 +1089,8 @@ div.code-of-conduct p {
     line-height: 1.7em;
         font-style: normal;
         margin-bottom: 1.2em;
-    font-weight: 300;
-    font-size: 1.13em;
+    font-weight: 500;
     color: rgba(0,0,0,0.60);
-    letter-spacing: 0.02em;
+    letter-spacing: -0.01em;
     font-family: 'Lato', sans-serif;
 }
