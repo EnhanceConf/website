@@ -210,6 +210,10 @@ nav.header_nav img {
 
 i.fa { color: #B4B4B4 !important; font-size: 1.3em;}
 
+
+header a , .footer_social a {
+   transition: opacity .25s ease-in-out;
+}
 header a:hover {opacity: 0.6;}
 
 
