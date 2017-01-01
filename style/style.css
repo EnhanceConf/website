@@ -332,7 +332,7 @@ ul.attendee-notes {
 }
 
 ul.attendee-notes li:before {
-    content: "• ";
+    content: "â€¢ ";
     color: #8e8e8e !important;
 }
 
@@ -368,9 +368,13 @@ div#next_edition p.bodytext {
 
 /* Newsletter Form */
 
+form {
+    position: relative;
+}
 .form_container {
     width: 100%;
     margin: 3.5em auto;
+    text-align: right;
 }
 
 div.form_email {
@@ -383,7 +387,7 @@ input#mce-EMAIL {
     padding: 0.5em 1.5em;
     height: 2em;
     min-width: 8em;
-    width: 100%;
+    width: 80%;
     border-radius: 3em;
     border-bottom-left-radius: 3em;
     border: 0;
@@ -422,21 +426,26 @@ div.form_submit {
 }
 
 #mc-embedded-subscribe {
-    background-color: red;
+    background-color: #d91e57;
     width: 2.5em;
     height: 2.5em;
     border: 0;
     border-radius: 5em;
-    /* top: .3em; */
-    right: 2.6em;
+    right: .4em;
     position: relative;
     background-image: url(/images/icons/email_icon_w.svg);
-    background-position: 0;
+    background-position: 9px;
     background-repeat: no-repeat;
     /* border: 2px solid blue; */
     float: right;
-    top: 1px;
+    top: -2.7em;
+    text-indent: -999999993em;
+    background-size: 1.6em;
+    /* display: inline-block; */
+    position: relative;
 }
+
+
 
 button.submit_button img {
     width: 1.4em;
@@ -593,7 +602,6 @@ footer a:hover {opacity: 0.6;}
 
 
 
-
 --------------------------------------------- */
 @media only screen and (min-width: 569px) and (max-width: 1023px) {
 
@@ -683,9 +691,22 @@ div#next_edition h1, div#next_edition p.bodytext  {
 
 /* Newsletter Form */
 
+form {
+    position: relative;
+}
 
-button#submit::before {
+
+
+@media only screen and max-width: 360px) {
+    #mc-embedded-subscribe {
+        text-indent: 0;
+        /* background: blue; */
+    }
+}
+
+#mc-embedded-subscribe::before {
     content: "Subscribe";
+
     font-family: 'Lato', sans-serif; !important;
     font-style: normal;
     font-weight: 400;
@@ -693,10 +714,9 @@ button#submit::before {
     letter-spacing: 0.11em;
     color: white !important;
 }
+#mc-embedded-subscribe img {display: none;}
 
-button#submit img {display: none;}
-
-button#submit {
+#mc-embedded-subscribe {
     width:100%;
     min-width: 9em;
     max-width: 15em;
@@ -917,6 +937,7 @@ div#next_edition p.bodytext {
     margin: 5.5em auto;
     width: 95%;
     padding-left: 5%;
+    position: relative;
 }
 
 
@@ -934,7 +955,7 @@ div.form_submit {
 }
 
 
-button#submit::before {
+button#mc-embedded-subscribe::before {
     content: "Subscribe";
     font-family: 'Lato', sans-serif; !important;
     font-style: normal;
@@ -944,9 +965,9 @@ button#submit::before {
     color: white !important;
 }
 
-button#submit img {display: none;}
+button#mc-embedded-subscribe img {display: none;}
 
-button#submit {
+button#mc-embedded-subscribe {
     width:100%;
     min-width: 8em;
     max-width: 15em;
@@ -1056,7 +1077,7 @@ nav.header_nav  {
 nav.header_nav a {
 
     margin: 0 0.8em !important;
-    }
+}
 
 /* ------------- BUTTON --------------- */
 
@@ -1111,3 +1132,4 @@ div.code-of-conduct p {
     color: rgba(0,0,0,0.60);
     letter-spacing: -0.01em;
     font-family: 'Lato', sans-serif;
+}
