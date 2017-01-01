@@ -27,8 +27,13 @@ body {
 
 }
 
+#container {
+    transition: opacity .3s ease-in-out;
+    opacity: 1;
+    min-height:50vh;
+}
 #container.loading {
-    height: 120vh;
+    opacity: 0;
 }
 
 /* ------------- TEXT STYLES --------------- */
@@ -160,7 +165,7 @@ div.content, footer {
 }
 
 div.content#next_edition {
-    padding: 0 10% !important;
+    padding: 10% !important;
 }
 
 
@@ -211,8 +216,8 @@ header a:hover {opacity: 0.6;}
 /* ------------- INTRO --------------- */
 
 div.content#intro {
-    padding-top: 4em;
-    padding-bottom: 4em;
+    padding-top: 3em;
+    padding-bottom: 3em;
 }
 
 div.intro-logo {padding: 1em 0;}
@@ -226,7 +231,6 @@ div.intro-logo img {
 
 div.content#last_edition {
     padding-top: 5em;
-    padding-bottom: 5em;
     background-color: #F2F2F2;
 }
 
@@ -778,7 +782,11 @@ h1 {
 
 /* ------------- CONTENT --------------- */
 
-div#black_mask, div.content, footer {
+div.content {
+    padding: 0 10%;
+    padding-bottom: 5%;
+}
+div#black_mask,  footer {
     padding: 0 10%;
 }
 
@@ -804,9 +812,7 @@ nav.header_nav a {
 
 /* ------------- LAST EDITION --------------- */
 
-div.content#last_edition {
-    padding-bottom: 7.5em !important;
-    }
+
 
 div#last_edition_text {padding-right: 15% !important;}
 
@@ -1080,9 +1086,6 @@ div#next_edition h1 {
 
 /* ------------- Pages --------------- */
 
-div.code-of-conduct {
-  margin: 5em auto;
-}
 
 div.code-of-conduct p {
     text-align: left;
