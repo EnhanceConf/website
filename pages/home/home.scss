@@ -1,0 +1,240 @@
+
+
+/* ------------- VIDEO --------------- */
+
+
+div#video {
+animation-duration: 2s;
+  animation-name: fadein;
+  animation-iteration-count: 1;
+}
+
+@-webkit-keyframes fadein {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+div#video iframe {
+        margin: 1em auto;
+        width: 100%;
+        height: 11em;
+        border-radius: 3px;
+        border: 2px solid rgba(0,0,0,0.55);
+}
+
+
+/* ------------- Testimonials --------------- */
+
+div#testimonials.title {
+    margin: 2.8em auto 2.2em;
+    width: 16em;
+}
+
+div.title .icon {
+    width: auto;
+    height: 1.8em;
+    margin-right: 0.5em;
+    float: left;
+}
+
+div.title h2 {text-align: left; line-height: 1.6em;}
+
+
+blockquote.twitter-tweet {text-align: center; margin-bottom: 2.5em; }
+
+blockquote.twitter-tweet img {
+    border-radius: 6em;
+    width: 5em;
+
+}
+
+
+p.tweet a {
+    color: #2F79B0;
+}
+
+
+blockquote.twitter-tweet a:hover {
+    opacity: 0.7;
+}
+
+
+
+/* ------------- Attendee Notes --------------- */
+
+div#notes.title {
+    margin: 2.5em auto 2.2em;
+    width: 11em;
+}
+
+
+ul.attendee-notes {
+    width: 10em;
+    margin: 0 auto;
+    line-height: 2.5em;
+    text-align: left;
+    list-style: none;
+    padding: 0 0 0 5%;
+}
+
+ul.attendee-notes li:before {
+    content: "• ";
+    color: #8e8e8e !important;
+}
+
+ul.attendee-notes a:hover{
+    border-bottom: solid 1px #8E8E8E;
+}
+
+
+@import './site/next-edition';
+
+/* ------------- LAST EDITION --------------- */
+
+
+div.content#last_edition {
+    padding-top: 3em;
+    background-color: #F2F2F2;
+}
+
+div#last_edition_text {
+    padding-bottom: 4em;
+    text-align: center;
+}
+
+div#last_edition .bodytext {margin-top: 1.5em;}
+
+p#last_edition_text2 {margin-bottom: 2.5em;}
+
+#last_edition_button { margin: 1.5em auto;}
+
+
+@media only screen and (min-width: #{$tablet-width})  {
+    /* ------------- LAST EDITION --------------- */
+
+    div#last_edition .bodytext {margin-top: 1.6em;}
+
+    /* ------------- VIDEO --------------- */
+
+    div#video iframe {
+            height: 21em;
+    }
+
+
+
+
+    /* ------------- Testimonials --------------- */
+
+    blockquote {margin: 0 0 2.5em 0 !important;}
+
+    div#testimonials.title {
+        margin: 2.8em auto 1em !important;
+    }
+
+    div.tweet {
+        padding: 2.14em 0 0 7em;
+    }
+
+    div.tweet p {
+        text-align: left !important;
+    }
+
+    p.author {margin: 0;}
+    p.tweet {margin-top: 0.5em;}
+
+
+    blockquote.twitter-tweet img {
+        float: left;
+        position: relative;
+        top: 2.6em;
+    }
+
+    /* ------------- Attendee Notes --------------- */
+
+
+    div#notes.title {margin: 3.5em auto 2.2em;}
+
+    ul.attendee-notes {
+        width: 100% !important;
+        padding: 0 !important;
+        text-align: center !important;
+    }
+
+    ul.attendee-notes li {
+        display: inline-block;
+    }
+
+    ul.attendee-notes li{
+        margin-left: 10%;
+    }
+
+}
+
+@media only screen and (min-width: #{$big-width})  {
+  /* ------------- LAST EDITION --------------- */
+
+
+
+    div#last_edition_text {padding-right: 15% !important;}
+
+
+    div#last_edition_text h1 {}
+
+    /* ------------- VIDEO --------------- */
+
+    div#video {padding-top: 1.9em;}
+
+    div#video iframe {
+        height: 25em !important;
+    }
+
+
+
+    /* ------------- Testimonials --------------- */
+
+    blockquote {margin: 0 0 2.5em 0 !important;}
+
+    div.twitter_feed_wrap {
+        border-right: solid 1px #dfdfdf;
+        padding-right: 15%;
+    }
+
+    div#testimonials.title {
+        margin: 3.5em 0 1em !important;
+    }
+
+    div.tweet {
+        padding: 1.2em 0 0 7em;
+    }
+
+    div.tweet p {
+        text-align: left !important;
+    }
+
+    p.author {margin: 0;}
+    p.tweet {margin-top: 0.5em;}
+
+
+    blockquote.twitter-tweet img {
+        float: left !important;
+        position: relative !important;
+        top: 1.7em !important;
+    }
+
+    /* ------------- Attendee Notes --------------- */
+
+
+    div.attendee_notes_wrap {
+        padding-left: 32%;
+    }
+
+    div#notes.title {margin: 3.5em 0 2.2em;}
+
+    ul.attendee-notes {
+        width: 100% !important;
+        padding: 0 0 0 2em !important;
+        text-align: left !important;
+    }
+
+}

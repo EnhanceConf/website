@@ -4,6 +4,8 @@
   "scripts": {
     "start": "speclate --debug 5006",
     "build": " npm run client && speclate --all",
+    "css": "./node_modules/node-sass/bin/node-sass -o ./style ./style/all.scss",
+    "css-watch": "./node_modules/node-sass/bin/node-sass -o ./style ./style/all.scss --watch",
     "client": "mkdir -p ./docs/client && browserify ./client/index.js > ./client/index-compiled.js && npm run service-worker",
     "dev-watch": "nodemon --watch pages --watch components --watch pages/layout.html --watch style --watch spec.js --watch client/index.js -e html,js,json,css  --exec npm run build",
     "service-worker": "browserify ./client/service-worker.js > ./docs/service-worker.js"
@@ -12,6 +14,7 @@
     "appcache-nanny": "^1.1.0",
     "browserify": "^13.1.1",
     "jquery": "^3.1.1",
+    "node-sass": "^4.1.1",
     "speclate": "7.x.x",
     "speclate-router": "4.2.0",
     "speclate-service-worker": "^1.2.0"

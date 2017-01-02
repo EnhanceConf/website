@@ -15,7 +15,7 @@ module.exports = {
     options: {
         outputDir: '/docs',
         files: [
-        '/style/style.css',
+        '/style/all.css',
         'style/fonts.css',
         'style/pure-0.6.0/pure-min.css',
         'style/pure-0.6.0/grids-responsive-min.css',
