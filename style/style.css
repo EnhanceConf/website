@@ -358,7 +358,7 @@ div#next_edition h1, div#next_edition p.bodytext  {
 
 
 div#next_edition p.bodytext {
-    margin-top: .9em;
+    margin-top: 1.5em;
 }
 
 /* Newsletter Form */
@@ -368,7 +368,7 @@ form {
 }
 .form_container {
     width: 100%;
-    margin: 3.5em auto;
+    margin: 3.2em auto;
     text-align: right;
 }
 
@@ -463,8 +463,10 @@ button.submit_button:hover {
 /* Countdown Timer */
 
 div.next_edition_timer_wrap {
-    width: 100%;
-    margin: 0 auto;
+    /* width: 100%; */
+    /* margin: 0 auto; */
+    /* background: red; */
+    /* width: 120%; */
 }
 
 ul.next_edition_timer {
@@ -803,7 +805,7 @@ div.form_submit {
 
 /* ------------- TEXT STYLES --------------- */
 
-h1, h2, h3 {text-align: left !important;}
+h1, h2, h3 {text-align: left;}
 
 .last_edition_text2 {
     text-align: right !important;
@@ -1034,8 +1036,11 @@ ul.next_edition_timer li {margin: 0 0.5em;}
 
 
     div#next_edition h1 {
-        width: 65% !important;
+        /* width: 65% !important; */
         /* min-height: 3.5em; */
+        /* float: right; */
+        /* background: red; */
+        text-align: right;
     }
 
 
@@ -1101,6 +1106,7 @@ div#last_edition .bodytext {margin-top: 1.6em;}
 
 div#next_edition h1 {
     width: 90% !important;
+    text-align: right;
 }
 
 
