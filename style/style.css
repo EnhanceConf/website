@@ -26,12 +26,6 @@ body {
     -webkit-margin-end: 0px;
 
 }
-
-#container {
-    transition: opacity .3s ease-in-out;
-    opacity: 1;
-    min-height:50vh;
-}
 #container.loading {
     opacity: 0;
 }
@@ -860,7 +854,7 @@ nav.header_nav a {
 div#last_edition_text {padding-right: 15% !important;}
 
 
-div#last_edition_text h1 {line-height: 0.6em !important;}
+div#last_edition_text h1 {}
 
 /* ------------- VIDEO --------------- */
 
