@@ -1,6 +1,4 @@
-$tabletWidth: 569px;
-$bigWidth: 1024px;
-$hugeWidth: 1440px;
+@import './_variables';
 
 /* ----------------------------------------------
 
@@ -11,8 +9,7 @@ $hugeWidth: 1440px;
 body {
     background-color: #D4D8D9;
     font-style: normal;
-    font-weight: 100;
-    font-size: 1.13em;
+    font-size: 1em;
     color: rgba(0,0,0,0.60);
     line-height: 1.7em;
     letter-spacing: 0.0em;
@@ -493,10 +490,6 @@ footer a:hover {opacity: 0.6;}
 
 
     div#last_edition .bodytext {margin-top: 1.6em;}
-
-
-
-
 
 
 
