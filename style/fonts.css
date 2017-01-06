@@ -1,9 +1,3 @@
-/* ----------------------------------
-
-            K R O P P E N
-
----------------------------------- */
-
 
 @font-face {
     font-family: 'Kroppen-Regular';
@@ -15,8 +9,6 @@
          url('../fonts/2E7DBB_3_0.svg#Kroppen-Regular') format('svg');
 }
 
-
-
  @font-face {
     font-family: 'Lato', sans-serif;
         src: url('../fonts/lato/webfont/Lato-hairline.eot');
@@ -25,6 +17,5 @@
          url('../fonts/lato/webfont/Lato-hairline.woff') format('woff'),
          url('../fonts/lato/webfont/Lato-hairline.ttf') format('truetype'),
          url('../fonts/lato/webfont/Lato-hairline.svg#Kroppen-Bold-Italic') format('svg');
-
-   }
+}
 
