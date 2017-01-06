@@ -4,7 +4,7 @@
   "scripts": {
     "start": "speclate --debug 5006",
     "build": " npm run client && speclate --all",
-    "css": "./node_modules/node-sass/bin/node-sass -o ./style/ ./style/all.scss --style compressed",
+    "css": "./node_modules/node-sass/bin/node-sass --output-style compressed -o ./style/ ./style/all.scss --style",
     "css-watch": "npm run css -- --watch",
     "client": "mkdir -p ./docs/client && browserify ./client/index.js > ./client/index-compiled.js && npm run service-worker",
     "dev-watch": "nodemon --watch pages --watch components --watch pages/layout.html --watch style --watch spec.js --watch client/index.js -e html,js,json,css  --exec npm run build",
