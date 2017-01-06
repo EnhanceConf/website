@@ -1,6 +1,30 @@
-@font-face {
-2	    font-family: 'Kroppen-Regular';
-3	    src: url('./fonts/2E7DBB_3_0.eot');
+/* ----------------------------------
 
-4	    src: url('./fonts/2E7DBB_3_0.eot?#iefix') format('embedded-opentype'), url('./fonts/2E7DBB_3_0.woff2') format('woff2'), url('./fonts/2E7DBB_3_0.woff') format('woff'), url('./fonts/2E7DBB_3_0.ttf') format('truetype')
-5	}
+            K R O P P E N
+
+---------------------------------- */
+
+
+@font-face {
+    font-family: 'Kroppen-Regular';
+    src: url('../fonts/2E7DBB_3_0.eot');
+    src: url('../fonts/2E7DBB_3_0.eot') format('embedded-opentype'),
+         url('../fonts/2E7DBB_3_0.woff2') format('woff2'),
+         url('../fonts/2E7DBB_3_0.woff') format('woff'),
+         url('../fonts/2E7DBB_3_0.ttf') format('truetype'),
+         url('../fonts/2E7DBB_3_0.svg#Kroppen-Regular') format('svg');
+}
+
+
+
+ @font-face {
+    font-family: 'Lato', sans-serif;
+        src: url('../fonts/lato/webfont/Lato-hairline.eot');
+        src: url('../fonts/lato/webfont/Lato-hairline.eot') format('embedded-opentype'),
+         url('../fonts/lato/webfont/Lato-hairline.woff2') format('woff2'),
+         url('../fonts/lato/webfont/Lato-hairline.woff') format('woff'),
+         url('../fonts/lato/webfont/Lato-hairline.ttf') format('truetype'),
+         url('../fonts/lato/webfont/Lato-hairline.svg#Kroppen-Bold-Italic') format('svg');
+
+   }
+
