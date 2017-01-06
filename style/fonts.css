@@ -1,6 +1,6 @@
 @font-face {
-2	    font-family: 'KroppenRound-RegularOblique';
-3	    src: url('./fonts/2E7DBB_0_0.eot');
+2	    font-family: 'Kroppen-Regular';
+3	    src: url('./fonts/2E7DBB_0_3.eot');
 
-4	    src: url('./fonts/2E7DBB_0_0.eot?#iefix') format('embedded-opentype'), url('./fonts/2E7DBB_0_0.woff2') format('woff2'), url('./fonts/2E7DBB_0_0.woff') format('woff'), url('./fonts/2E7DBB_0_0.ttf') format('truetype')
+4	    src: url('./fonts/2E7DBB_0_3.eot?#iefix') format('embedded-opentype'), url('./fonts/2E7DBB_0_3.woff2') format('woff2'), url('./fonts/2E7DBB_0_3.woff') format('woff'), url('./fonts/2E7DBB_0_3.ttf') format('truetype')
 5	}
