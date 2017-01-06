@@ -7,7 +7,8 @@
 body {
   background-color: #D4D8D9;
   font-style: normal;
-  font-size: 1em;
+  font-size: 1.19em;
+  font-weight: 100;
   color: rgba(0, 0, 0, 0.6);
   line-height: 1.7em;
   letter-spacing: 0.0em;
@@ -466,7 +467,8 @@ ul.attendee-notes {
   line-height: 2.5em;
   text-align: left;
   list-style: none;
-  padding: 0 0 0 5%; }
+  padding: 0 0 4em 5%;
+  }
 
 ul.attendee-notes li:before {
   content: "• ";
@@ -493,13 +495,10 @@ div#black_mask h1 {
 div#next_edition h1, div#next_edition p.bodytext {
   margin: 0 auto; }
 
-div#next_edition p.bodytext {
-  margin-top: 1.5em; }
-
 /* Newsletter Form */
 .form_container {
   width: 100%;
-  margin: 3.2em auto;
+  margin: 4.5em auto;
   text-align: right; }
   .form_container form {
     position: relative; }
@@ -520,7 +519,11 @@ input#mce-EMAIL {
   font-style: normal;
   font-weight: 300;
   font-size: 1em;
-  color: rgba(0, 0, 0, 0.8) !important; }
+  color: rgba(0, 0, 0, 0.8) !important;
+  /* margin-right: 9.77em; */
+  /* background: red; */
+  overflow: hidden;
+  }
 
 input#mce-EMAIL::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */
@@ -632,10 +635,10 @@ li.divider {
   div#black_mask {
     padding-top: 5em;
     padding-bottom: 1.5em; }
-  div#next_edition p.bodytext {
-    text-align: right !important; }
   div#next_edition h1, div#next_edition p.bodytext {
     width: 70%; }
+  div#next_edition p.bodytext {
+    text-align: right; }
   /* Newsletter Form */
   form {
     position: relative; }
@@ -674,7 +677,7 @@ li.divider {
     width: 100%; }
   /* Newsletter Form */
   .form_container {
-    margin: 5.5em auto;
+    margin: 6.3 em auto;
     width: 95%;
     padding-left: 5%;
     position: relative; }
@@ -706,16 +709,6 @@ li.divider {
     margin: 0em auto; }
   ul.next_edition_timer li {
     margin: 0 0.5em; } }
-
-@media only screen and (min-width: 1024px) and (max-width: 1200px) {
-  div#next_edition h1 {
-    /* width: 65% !important; */
-    /* min-height: 3.5em; */
-    /* float: right; */
-    /* background: red; */
-    text-align: right; }
-  .form_container {
-    margin: 6.5em auto; } }
 
 @media only screen and (min-width: 1440px) {
   /* ------------- Next Edition --------------- */
@@ -771,7 +764,9 @@ p#last_edition_text2 {
   ul.attendee-notes {
     width: 100% !important;
     padding: 0 !important;
-    text-align: center !important; }
+    text-align: center !important;
+    margin-bottom: 3em;
+    }
   ul.attendee-notes li {
     display: inline-block; }
   ul.attendee-notes li {

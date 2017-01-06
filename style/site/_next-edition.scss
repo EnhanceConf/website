@@ -18,6 +18,7 @@ div#black_mask {
 }
 
 div#black_mask h1 {
+
     min-height: 3em;
 }
 
@@ -25,17 +26,12 @@ div#next_edition h1, div#next_edition p.bodytext  {
     margin: 0 auto;
 }
 
-
-div#next_edition p.bodytext {
-    margin-top: 1.5em;
-}
-
 /* Newsletter Form */
 
 
 .form_container {
     width: 100%;
-    margin: 3.2em auto;
+    margin: 4.5em auto;
     text-align: right;
     form {
        position: relative;
@@ -194,13 +190,14 @@ li.divider {
             padding-bottom: 1.5em;
         }
 
-    div#next_edition p.bodytext {text-align: right !important;}
 
 
     div#next_edition h1, div#next_edition p.bodytext  {
         width:70%;
     }
-
+    div#next_edition p.bodytext {
+        text-align: right;
+    }
 
     /* Newsletter Form */
 
@@ -268,7 +265,7 @@ li.divider {
 
 
     .form_container {
-        margin: 5.5em auto;
+        margin: 6.3 em auto;
         width: 95%;
         padding-left: 5%;
         position: relative;
@@ -322,21 +319,10 @@ li.divider {
 }
 
 
-@media only screen and (min-width: 1024px) and (max-width:1200px) {
-
-    div#next_edition h1 {
-        /* width: 65% !important; */
-        /* min-height: 3.5em; */
-        /* float: right; */
-        /* background: red; */
-        text-align: right;
-    }
+@media only screen and (min-width: 1024px) {
 
 
 
-    .form_container {
-        margin: 6.5em auto;
-    }
 
 }
 

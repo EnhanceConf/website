@@ -224,10 +224,10 @@ li.divider {
   div#black_mask {
     padding-top: 5em;
     padding-bottom: 1.5em; }
-  div#next_edition p.bodytext {
-    text-align: right !important; }
   div#next_edition h1, div#next_edition p.bodytext {
     width: 70%; }
+  div#next_edition p.bodytext {
+    text-align: right; }
   /* Newsletter Form */
   form {
     position: relative; }
@@ -266,7 +266,7 @@ li.divider {
     width: 100%; }
   /* Newsletter Form */
   .form_container {
-    margin: 5.5em auto;
+    margin: 5.8em auto;
     width: 95%;
     padding-left: 5%;
     position: relative; }
@@ -299,15 +299,9 @@ li.divider {
   ul.next_edition_timer li {
     margin: 0 0.5em; } }
 
-@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+@media only screen and (min-width: 1024px) {
   div#next_edition h1 {
-    /* width: 65% !important; */
-    /* min-height: 3.5em; */
-    /* float: right; */
-    /* background: red; */
-    text-align: right; }
-  .form_container {
-    margin: 6.5em auto; } }
+    width: 65% !important; } }
 
 @media only screen and (min-width: 1440px) {
   /* ------------- Next Edition --------------- */
