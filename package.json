@@ -7,6 +7,7 @@
     "css": "./node_modules/node-sass/bin/node-sass --output-style compressed -o ./style/ ./style/all.scss",
     "css-watch": "./node_modules/node-sass/bin/node-sass -o ./docs/style/ ./style/all.scss --watch",
     "app": "browserify ./client/index.js > ./client/index-compiled.js",
+    "app-min": "./node_modules/browserify/bin/cmd.js ./client/index.js | uglifyjs -mc > ./client/index-compiled.js",
     "client": "mkdir -p ./docs/client && npm run app && npm run service-worker && npm run css",
     "html-watch": "nodemon --watch pages --watch components --watch pages/layout.html  --watch spec.js --watch client/index.js -e html,js,json  --exec npm run build",
     "service-worker": "browserify ./client/service-worker.js > ./docs/service-worker.js"
