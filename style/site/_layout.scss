@@ -38,6 +38,7 @@ h1 {
 h2 {
     font-style: normal;
     font-weight: 500;
+    color: #60AB32;
     font-size: 1em;
     letter-spacing: 0.01em;
 }
@@ -77,12 +78,7 @@ footer p {
     letter-spacing: 0.05em !important;
 }
 
-ul.attendee-notes {
-    font-style: normal !important;
-    font-weight: 300 !important;
-    font-size: 0.75em !important;
-    letter-spacing: 0.1em !important;
-}
+
 
 .white, .white a {color: white !important;}
 .black, .black a {color: rgba(0,0,0,0.80) !important;}
@@ -180,7 +176,7 @@ nav.header_nav a {
 
 nav.header_nav img {
     width: 1.3em;
-    height: auto;
+    height: 100%;
     margin-bottom: 0.03em;
 }
 
