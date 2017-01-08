@@ -63,6 +63,13 @@ blockquote.twitter-tweet a:hover {
 
 /* ------------- Attendee Notes --------------- */
 
+
+ul.attendee-notes {
+    font-style: normal !important;
+    font-weight: 300 !important;
+    font-size: 0.75em !important;
+    letter-spacing: 0.1em !important;
+}
 div#notes.title {
     margin: 2.5em auto 2.2em;
     width: 11em;
@@ -157,7 +164,7 @@ p#last_edition_text2 {margin-bottom: 2.5em;}
 
     ul.attendee-notes {
         width: 100% !important;
-        padding: 0 !important;
+        padding-left: 0 !important;
         text-align: center !important;
     }
 
