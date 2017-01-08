@@ -24,7 +24,7 @@ module.exports = {
         '/images/logo_main.png',
 
         // avatars
-        'images/avatars/dwyl.jpeg',
+        'images/avatars/dwyl.png',
         'images/avatars/PenmanRoss.jpg',
         '/images/avatars/ed_horsford.jpeg',
         'images/icons/pen_icon.svg',
