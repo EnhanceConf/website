@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "speclate --debug 5006",
-    "build": "npm run cleannpm run html",
+    "build": "npm run clean && npm run html",
     "watch": "npm run js-watch & npm run css-watch & npm run speclate-watch",
     "html": "speclate --all",
     "speclate-watch": "speclate --watch",
