@@ -15,7 +15,7 @@
     "js-app": "browserify ./client/index.js  | uglifyjs -mc > ./client/index-compiled.js",
     "js-service-worker": "browserify ./client/service-worker.js > ./docs/service-worker.js",
     "js-watch": "watchify ./client/index.js -o ./client/index-compiled.js",
-    "clean": "mkdir ./docs"
+    "clean": "rm -Rf ./docs"
   },
   "devDependencies": {
     "appcache-nanny": "^1.1.0",
