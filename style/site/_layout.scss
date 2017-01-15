@@ -3,14 +3,11 @@
 /* ----------------------------------------------
 
                        A L L
-
 --------------------------------------------- */
 
 body {
     background-color: #D4D8D9;
     font-style: normal;
-    font-size: 1em;
-    font-weight:100;
     color: rgba(0,0,0,0.60);
     line-height: 1.7em;
     letter-spacing: 0.0em;
@@ -19,6 +16,12 @@ body {
     -webkit-margin-after: 1em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
+}
+
+body p {
+    font-family: Lato;
+    font-size: 1.2em;
+    font-weight:800;
 
 }
 
@@ -476,6 +479,7 @@ footer a:hover {opacity: 0.6;}
 
         margin: 0 0.8em !important;
     }
+
 
     /* ------------- BUTTON --------------- */
 
