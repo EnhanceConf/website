@@ -10,7 +10,7 @@
 }
 
  @font-face {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato';
         src: url('../fonts/lato/webfont/Lato-hairline.eot');
         src: url('../fonts/lato/webfont/Lato-hairline.eot') format('embedded-opentype'),
          url('../fonts/lato/webfont/Lato-hairline.woff2') format('woff2'),
