@@ -15,7 +15,7 @@ module.exports = {
     options: {
         outputDir: '/docs',
         files: [
-        '/style/all.css',
+        'style/all.css',
         'style/fonts.css',
         'style/pure-0.6.0/pure-min.css',
         'style/pure-0.6.0/grids-responsive-min.css',
@@ -31,14 +31,17 @@ module.exports = {
         '/images/avatars/psd.jpg',
 
         // fonts
+        // kroppen
         'fonts/2E7DBB_3_0.ttf',
         'fonts/2E7DBB_3_0.woff',
         'fonts/2E7DBB_3_0.woff2',
-        'fonts/Lato-Hairline.eot',
-        'fonts/Lato-Hairline.eot',
-        'fonts/Lato-Hairline.woff2',
-        'fonts/Lato-Hairline.woff',
-        'fonts/Lato-Hairline.ttf',
+
+
+        // 'fonts/Lato-Hairline.eot',
+        // 'fonts/Lato-Hairline.eot',
+        // 'fonts/Lato-Hairline.woff2',
+        // 'fonts/Lato-Hairline.woff',
+        // 'fonts/Lato-Hairline.ttf',
 
         'fonts/lato/webfont/Lato-hairline.eot',
         'fonts/lato/webfont/Lato-hairline.svg',
@@ -46,10 +49,10 @@ module.exports = {
         'fonts/lato/webfont/Lato-hairline.woff',
         'fonts/lato/webfont/Lato-hairline.woff2',
 
-        'fonts/Lato-Regular.eot',
-        'fonts/Lato-Regular.woff2',
-        'fonts/Lato-Regular.woff',
-        'fonts/Lato-Regular.ttf',
+        // 'fonts/Lato-Regular.eot',
+        // 'fonts/Lato-Regular.woff2',
+        // 'fonts/Lato-Regular.woff',
+        // 'fonts/Lato-Regular.ttf',
 
 
         'images/photo_bg.jpg',
