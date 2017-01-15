@@ -13,6 +13,7 @@ module.exports = {
     },
 
     options: {
+        debug: true,
         outputDir: '/docs',
         files: [
         'style/all.css',
