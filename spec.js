@@ -21,14 +21,14 @@ module.exports = {
         'style/pure-0.6.0/grids-responsive-min.css',
         'client/index-compiled.js',
         'images/icons/chat_icon.svg',
-        '/images/logo_main.png',
+        'images/logo_main.png',
 
         // avatars
         'images/avatars/dwyl.png',
         'images/avatars/PenmanRoss.jpg',
-        '/images/avatars/ed_horsford.jpeg',
+        'images/avatars/ed_horsford.jpeg',
         'images/icons/pen_icon.svg',
-        '/images/avatars/psd.jpg',
+        'images/avatars/psd.jpg',
 
         // fonts
         // kroppen
