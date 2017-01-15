@@ -25,6 +25,7 @@
     "speclate": "7.x.x",
     "speclate-router": "4.2.0",
     "speclate-service-worker": "^1.2.0",
+    "uglifyjs": "^2.4.10",
     "watchify": "^3.8.0"
   }
 }
