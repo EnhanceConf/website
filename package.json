@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "speclate --debug 5006",
-    "build": "mkdir ./docs && npm run css && npm run html",
+    "build": "mkdir -p ./docs && npm run css && npm run html",
     "watch": "npm run js-watch & npm run css-watch & npm run speclate-watch",
     "html": "speclate --all",
     "speclate-watch": "speclate --watch",
@@ -23,7 +23,7 @@
     "jquery": "^3.1.1",
     "node-sass": "^4.1.1",
     "nodemon": "^1.11.0",
-    "speclate": "8.6.2",
+    "speclate": "8.6.3",
     "speclate-router": "4.2.0",
     "speclate-service-worker": "^1.2.0",
     "uglifyjs": "^2.4.10",
