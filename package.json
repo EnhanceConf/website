@@ -3,14 +3,18 @@
   "version": "1.0.0",
   "scripts": {
     "start": "speclate --debug 5006",
-    "build": " npm run client && speclate --all",
-    "css": "./node_modules/node-sass/bin/node-sass --output-style compressed -o ./style/ ./style/all.scss",
-    "css-watch": "./node_modules/node-sass/bin/node-sass -o ./docs/style/ ./style/all.scss --watch",
-    "app": "browserify ./client/index.js > ./client/index-compiled.js",
-    "app-min": "./node_modules/browserify/bin/cmd.js ./client/index.js | uglifyjs -mc > ./client/index-compiled.js",
-    "client": "mkdir -p ./docs/client && npm run app && npm run service-worker && npm run css",
-    "html-watch": "nodemon --watch pages --watch components --watch pages/layout.html  --watch spec.js --watch client/index.js -e html,js,json  --exec npm run build",
-    "service-worker": "browserify ./client/service-worker.js > ./docs/service-worker.js"
+    "build": "npm run css && npm run js && npm run html",
+    "watch": "npm run js-watch & npm run css-watch & npm run speclate-watch",
+    "html": "speclate --all",
+    "speclate-watch": "speclate --watch",
+    "css-base": "node-sass -o ./style/ ./style/all.scss",
+    "css": "npm run css-base -- --output-style compressed",
+    "css-watch": "npm run css-base -- --sourcemap true --watch",
+    "js": "npm run prep-js && npm run js-app && npm run js-service-worker",
+    "prep-js": "mkdir -p ./docs/client",
+    "js-app": "browserify ./client/index.js  | uglifyjs -mc > ./client/index-compiled.js",
+    "js-service-worker": "browserify ./client/service-worker.js > ./docs/service-worker.js",
+    "js-watch": "watchify ./client/index.js -o ./client/index-compiled.js"
   },
   "devDependencies": {
     "appcache-nanny": "^1.1.0",
@@ -20,6 +24,7 @@
     "node-sass": "^4.1.1",
     "speclate": "7.x.x",
     "speclate-router": "4.2.0",
-    "speclate-service-worker": "^1.2.0"
+    "speclate-service-worker": "^1.2.0",
+    "watchify": "^3.8.0"
   }
 }
