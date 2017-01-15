@@ -11,7 +11,6 @@ module.exports = {
     "/terms.html": {
         page: 'terms'
     },
-
     options: {
         debug: false,
         outputDir: '/docs',
