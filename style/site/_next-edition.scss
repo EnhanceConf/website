@@ -16,7 +16,9 @@ div#black_mask {
     padding-top: 4em;
     padding-bottom: 0.5em;
 }
-
+div#black_mask .white{
+    font-size: 1em;
+}
 div#black_mask h1 {
 
     min-height: 3em;
@@ -92,9 +94,10 @@ div.form_submit {
     height: 2.56em;
     border: 0;
     border-radius: 5em;
-    font-weight: 400;
+    font-weight: 700;
     right: .6em;
     position: relative;
+    font-family: Lato;
     background-image: url(/images/icons/email_icon_w.svg);
     background-position: 9px;
     background-repeat: no-repeat;
