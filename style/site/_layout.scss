@@ -38,12 +38,13 @@ h1 {
     line-height: 1.3em !important;
 }
 
-h2 {
+h2.green {
+
+    font-family: Lato, sans-serif;
     font-style: normal;
-    font-weight: 500;
-    color: #72be44;
-    font-size: 1em;
-    letter-spacing: 0.01em;
+    font-weight: 700;
+    font-size: 1em !important;
+    letter-spacing: 0.06em !important;
 }
 
 h5 {
@@ -62,6 +63,9 @@ h6, ul.footer_nav a {
 
 
 p.tweet {
+    letter-spacing: 0.0em;
+    font-family: sans-serif;
+    font-weight: 400;
     font-size: 0.875em;
     line-height: 1.6em;
 }
@@ -70,6 +74,7 @@ p.author {
     font-style: normal !important;
     font-weight: 700 !important;
     font-size: 0.75em !important;
+    font-family: sans-serif;
     letter-spacing: 0.05em !important;
 }
 
