@@ -32,15 +32,15 @@ module.exports = {
 
         // fonts
         // kroppen
-        'fonts/2E7DBB_3_0.ttf',
-        'fonts/2E7DBB_3_0.woff',
-        'fonts/2E7DBB_3_0.woff2',
+        'fonts/kroppen/2E7DBB_3_0.ttf',
+        'fonts/kroppen/2E7DBB_3_0.woff',
+        'fonts/kroppen/2E7DBB_3_0.woff2',
 
-        'fonts/lato/webfont/Lato-hairline.eot',
-        'fonts/lato/webfont/Lato-hairline.svg',
-        'fonts/lato/webfont/Lato-hairline.ttf',
-        'fonts/lato/webfont/Lato-hairline.woff',
-        'fonts/lato/webfont/Lato-hairline.woff2',
+        'fonts/lato/Lato-hairline.eot',
+        'fonts/lato/Lato-hairline.svg',
+        'fonts/lato/Lato-hairline.ttf',
+        'fonts/lato/Lato-hairline.woff',
+        'fonts/lato/Lato-hairline.woff2',
 
 
         'images/photo_bg.jpg',
