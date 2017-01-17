@@ -17,7 +17,8 @@ body {
 
 body p {
   font-family: Lato;
-  font-size: 1.2em;
+  font-size: 1.13em;
+  letter-spacing: 0.02em;
   font-weight: 800; }
 
 /* ------------- TEXT STYLES --------------- */
@@ -67,6 +68,7 @@ footer p {
   font-style: normal !important;
   font-weight: 400 !important;
   font-size: 0.75em !important;
+  font-family: sans-serif !important;
   line-height: 1.5em !important;
   letter-spacing: 0.05em !important; }
 
@@ -117,6 +119,11 @@ a.button.black:hover {
 
 textarea:focus, input:focus, button:focus {
   outline: none !important; }
+
+#last_edition_button {
+  font-family: Lato;
+  font-weight: 900;
+  font-size: 0.9em; }
 
 /* ------------- CONTENT --------------- */
 .content-wrapper {
@@ -476,6 +483,9 @@ ul.attendee-notes {
   list-style: none;
   padding: 0 0 5em 5%; }
 
+ul.attendee-notes li a {
+  color: rgba(0, 0, 0, 0.44) !important; }
+
 ul.attendee-notes li:before {
   content: "• ";
   color: #8e8e8e !important; }
@@ -494,6 +504,9 @@ div#black_mask {
   background: rgba(26, 25, 25, 0.9);
   padding-top: 4em;
   padding-bottom: 0.5em; }
+
+div#black_mask .white {
+  font-size: 1em; }
 
 div#black_mask h1 {
   min-height: 3em; }
@@ -562,9 +575,10 @@ div.form_submit {
   height: 2.56em;
   border: 0;
   border-radius: 5em;
-  font-weight: 400;
+  font-weight: 700;
   right: .6em;
   position: relative;
+  font-family: Lato;
   background-image: url(/images/icons/email_icon_w.svg);
   background-position: 9px;
   background-repeat: no-repeat;
