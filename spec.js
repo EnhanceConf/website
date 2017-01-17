@@ -42,7 +42,6 @@ module.exports = {
         'fonts/lato/lato-hairline.woff',
         'fonts/lato/lato-hairline.woff2',
 
-
         'images/photo_bg.jpg',
         'images/icons/email_icon.svg',
         'images/icons/email_icon_w.svg',
