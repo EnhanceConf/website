@@ -11,10 +11,10 @@
 
  @font-face {
     font-family: 'Lato';
-        src: url('../fonts/lato/Lato-hairline.eot');
-        src: url('../fonts/lato/Lato-hairline.eot') format('embedded-opentype'),
-         url('../fonts/lato/Lato-hairline.woff2') format('woff2'),
-         url('../fonts/lato/Lato-hairline.woff') format('woff'),
-         url('../fonts/lato/Lato-hairline.ttf') format('truetype'),
-         url('../fonts/lato/Lato-hairline.svg#Kroppen-Bold-Italic') format('svg');
+        src: url('../fonts/lato/lato-hairline.eot');
+        src: url('../fonts/lato/lato-hairline.eot') format('embedded-opentype'),
+         url('../fonts/lato/lato-hairline.woff2') format('woff2'),
+         url('../fonts/lato/lato-hairline.woff') format('woff'),
+         url('../fonts/lato/lato-hairline.ttf') format('truetype'),
+         url('../fonts/lato/lato-hairline.svg#Kroppen-Bold-Italic') format('svg');
 }
