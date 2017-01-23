@@ -23,7 +23,7 @@
     "jquery": "^3.1.1",
     "node-sass": "^4.1.1",
     "nodemon": "^1.11.0",
-    "speclate": "8.6.x",
+    "speclate": "9.x.x",
     "speclate-router": "4.2.0",
     "speclate-service-worker": "^1.2.0",
     "uglifyjs": "^2.4.10",
