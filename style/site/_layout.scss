@@ -288,7 +288,7 @@ footer a:hover {opacity: 0.6;}
                     >360px
 
 --------------------------------------------- */
-@media only screen and (min-width: 360px) and (max-width: 568px) {
+@media only screen and (min-width: #{$tiny-width}) and (max-width: #{$tablet-width}) {
  /* ------------- Footer --------------- */
 
     ul.footer_nav li {
@@ -312,19 +312,13 @@ footer a:hover {opacity: 0.6;}
         letter-spacing: 0.14em !important;
     }
 
-
-
-
 }
 /* ----------------------------------------------
 
                 Tablets Landscape
 
 --------------------------------------------- */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-
-
-
+@media only screen and (min-width: #{$tablet-landscape}) and (max-width: #{$big-width}) {
 
     ul.footer_nav li {
         margin: 0 5% !important;
@@ -451,7 +445,7 @@ footer a:hover {opacity: 0.6;}
          < 1200px Small Desktop
 
 --------------------------------------------- */
-@media only screen and (min-width: 1024px) and (max-width:1200px) {
+@media only screen and (min-width: #{$big-width}) and (max-width:#{$small-desktop}) {
 
 
     div.tweet {

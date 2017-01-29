@@ -261,7 +261,7 @@ footer a:hover {
                     >360px
 
 --------------------------------------------- */
-@media only screen and (min-width: 360px) and (max-width: 568px) {
+@media only screen and (min-width: 360px) and (max-width: 569) {
   /* ------------- Footer --------------- */
   ul.footer_nav li {
     margin: 0 4% !important; } }
@@ -271,7 +271,7 @@ footer a:hover {
                     Tablets
 
 --------------------------------------------- */
-@media only screen and (min-width: 569px) {
+@media only screen and (min-width: 569) {
   /* ------------- TEXT STYLES --------------- */
   p.bodytext {
     text-align: justify !important; }
@@ -284,7 +284,7 @@ footer a:hover {
                 Tablets Landscape
 
 --------------------------------------------- */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   ul.footer_nav li {
     margin: 0 5% !important; }
   div#footer_col1 {
@@ -650,7 +650,7 @@ li.divider {
   font-size: 1.2em;
   color: #797979; }
 
-@media only screen and (min-width: 569px) {
+@media only screen and (min-width: 569) {
   /* ------------- Next Edition --------------- */
   div#black_mask {
     padding-top: 5em;
@@ -731,7 +731,6 @@ li.divider {
     margin: 0 0.5em; } }
 
 @media only screen and (min-width: 1440px) {
-  /* ------------- Next Edition --------------- */
   div#next_edition h1 {
     width: 90% !important;
     text-align: right; } }
@@ -754,7 +753,17 @@ p#last_edition_text2 {
 #last_edition_button {
   margin: 1.5em auto; }
 
-@media only screen and (min-width: 569px) {
+@media only screen and (min-width: 400px) and (max-width: 768px) {
+  ul.attendee-notes {
+    width: 100% !important;
+    padding-left: 0 !important;
+    text-align: left !important; }
+  ul.attendee-notes li {
+    margin-left: 10%;
+    display: inline-block;
+    width: 38%; } }
+
+@media only screen and (min-width: 569) {
   /* ------------- LAST EDITION --------------- */
   div#last_edition .bodytext {
     margin-top: 1.6em; }
@@ -780,15 +789,7 @@ p#last_edition_text2 {
     top: 2.6em; }
   /* ------------- Attendee Notes --------------- */
   div#notes.title {
-    margin: 3.5em auto 2.2em; }
-  ul.attendee-notes {
-    width: 100% !important;
-    padding-left: 0 !important;
-    text-align: center !important; }
-  ul.attendee-notes li {
-    display: inline-block; }
-  ul.attendee-notes li {
-    margin-left: 10%; } }
+    margin: 3.5em auto 2.2em; } }
 
 @media only screen and (min-width: 1024px) {
   /* ------------- LAST EDITION --------------- */

@@ -312,8 +312,6 @@ li.divider {
     }
 
 
-
-
     /* Countdown Timer */
 
 
@@ -323,22 +321,9 @@ li.divider {
 
     ul.next_edition_timer li {margin: 0 0.5em;}
 
-
 }
-
-
-@media only screen and (min-width: 1024px) {
-
-
-
-
-}
-
 
 @media only screen and (min-width: #{$huge-width}) {
-
-
-    /* ------------- Next Edition --------------- */
 
     div#next_edition h1 {
         width: 90% !important;

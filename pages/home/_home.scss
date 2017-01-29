@@ -67,7 +67,6 @@ ul.attendee-notes {
     font-style: normal !important;
     font-weight: 300 !important;
     font-size: 0.75em !important;
-
     letter-spacing: 0.1em !important;
 }
 div#notes.title {
@@ -120,6 +119,24 @@ p#last_edition_text2 {margin-bottom: 2.5em;}
 #last_edition_button { margin: 1.5em auto;}
 
 
+@media only screen and (min-width: #{$phone-width}) and (max-width: #{$tablet-landscape })  {
+    ul.attendee-notes {
+        width: 100% !important;
+        padding-left: 0 !important;
+        text-align: left !important;
+    }
+
+    ul.attendee-notes li {
+        margin-left: 10%;
+        display: inline-block;
+        width: 38%;
+    }
+
+
+
+}
+
+
 @media only screen and (min-width: #{$tablet-width})  {
     /* ------------- LAST EDITION --------------- */
 
@@ -165,19 +182,7 @@ p#last_edition_text2 {margin-bottom: 2.5em;}
 
     div#notes.title {margin: 3.5em auto 2.2em;}
 
-    ul.attendee-notes {
-        width: 100% !important;
-        padding-left: 0 !important;
-        text-align: center !important;
-    }
 
-    ul.attendee-notes li {
-        display: inline-block;
-    }
-
-    ul.attendee-notes li{
-        margin-left: 10%;
-    }
 
 }
 
