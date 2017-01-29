@@ -46,6 +46,11 @@ div.form_email {
     float: left;
 }
 
+img.email-icon {
+    width: 1em;
+    height: auto;
+}
+
 input#mce-EMAIL {
     padding: 0.5em 1.5em;
     height: 2em;
@@ -95,7 +100,7 @@ div.form_submit {
     border: 0;
     border-radius: 5em;
     font-weight: 700;
-    right: .6em;
+    right: .2em;
     position: relative;
     font-family: Lato;
     background-image: url(/images/icons/email_icon_w.svg);
