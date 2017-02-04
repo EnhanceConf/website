@@ -381,7 +381,7 @@ footer a:hover {
          < 1200px Small Desktop
 
 --------------------------------------------- */
-@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+@media only screen and (min-width: 1024px) {
   div.tweet {
     padding: 1.5em 0px 0px 7em !important; }
   div#footer_col3 div.content_wrap {
@@ -733,7 +733,22 @@ li.divider {
 @media only screen and (min-width: 1440px) {
   div#next_edition h1 {
     width: 90% !important;
-    text-align: right; } }
+    text-align: center; } }
+
+@media only screen and (max-width: 320px) {
+  #mc-embedded-subscribe {
+    right: -.7em; } }
+
+@media only screen and (min-width: 640px) {
+  #mc-embedded-subscribe {
+    width: 10em;
+    text-indent: 0;
+    padding-left: 2em; } }
+
+@media only screen and (min-width: 2600px) {
+  #mc-embedded-subscribe {
+    top: .2em;
+    left: -10.2em; } }
 
 /* ------------- LAST EDITION --------------- */
 div.content#last_edition {

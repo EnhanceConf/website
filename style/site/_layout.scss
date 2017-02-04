@@ -411,7 +411,7 @@ footer a:hover {opacity: 0.6;}
     footer {
         padding-top: 4em !important;
         padding-bottom: 2.9em !important;
-        }
+    }
 
     div#footer_col1,
     div#footer_col2,
@@ -445,7 +445,7 @@ footer a:hover {opacity: 0.6;}
          < 1200px Small Desktop
 
 --------------------------------------------- */
-@media only screen and (min-width: #{$big-width}) and (max-width:#{$small-desktop}) {
+@media only screen and (min-width: #{$big-width}) {
 
 
     div.tweet {
