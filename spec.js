@@ -36,11 +36,12 @@ module.exports = {
         'fonts/kroppen/2E7DBB_3_0.woff',
         'fonts/kroppen/2E7DBB_3_0.woff2',
 
-        'fonts/lato/lato-hairline.eot',
-        'fonts/lato/lato-hairline.svg',
-        'fonts/lato/lato-hairline.ttf',
-        'fonts/lato/lato-hairline.woff',
-        'fonts/lato/lato-hairline.woff2',
+         'fonts/lato/LatoLatin-Light.eot',
+         'fonts/lato/LatoLatin-Light.eot',
+         'fonts/lato/LatoLatin-Light.woff2',
+         'fonts/lato/LatoLatin-Light.woff',
+        'fonts/lato/LatoLatin-Light.ttf',
+
 
         'images/photo_bg.jpg',
         'images/icons/email_icon.svg',
