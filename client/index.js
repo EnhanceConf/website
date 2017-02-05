@@ -52,7 +52,5 @@ if(history.pushState) {
 
 }
 
-console.log('send analytics')
-
 analytics('create', 'UA-40911437-5', 'auto')
 analytics('send', 'pageview')
