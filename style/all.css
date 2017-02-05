@@ -16,7 +16,8 @@ body {
   -webkit-margin-end: 0px; }
 
 body p {
-  font-family: Lato;
+  font-family: Lato Light;
+  font-weight: 100 !important;
   font-size: 1.13em;
   letter-spacing: 0.02em;
   font-weight: 800; }
@@ -32,9 +33,9 @@ h1 {
   line-height: 1.3em !important; }
 
 h2 {
-  font-family: Lato, sans-serif;
+  font-family: Lato Light, sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 1em !important;
   letter-spacing: 0.06em !important; }
 
@@ -52,8 +53,7 @@ h6, ul.footer_nav a {
 
 p.tweet {
   letter-spacing: 0.0em;
-  font-family: sans-serif;
-  font-weight: 400;
+  font-weight: 800 !important;
   font-size: 0.875em;
   line-height: 1.6em; }
 
@@ -121,7 +121,7 @@ textarea:focus, input:focus, button:focus {
   outline: none !important; }
 
 #last_edition_button {
-  font-family: Lato;
+  font-family: Lato Light;
   font-weight: 900;
   font-size: 0.9em; }
 
@@ -582,7 +582,7 @@ div.form_submit {
   font-weight: 700;
   right: .2em;
   position: relative;
-  font-family: Lato;
+  font-family: Lato Light;
   background-image: url(/images/icons/email_icon_w.svg);
   background-position: 9px;
   background-repeat: no-repeat;
