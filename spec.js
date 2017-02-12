@@ -40,6 +40,7 @@ module.exports = {
         'client/index-compiled.js',
         'images/icons/chat_icon.svg',
         'images/logo_main.png',
+        'images/logo_main.svg',
 
         // avatars
         'images/avatars/dwyl.png',
