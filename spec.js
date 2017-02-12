@@ -27,6 +27,9 @@ module.exports = {
         '#pre-footer': '&nbsp;'
     },
     options: {
+        validate: {
+            w3c: 'error' // stop build if w3c validation errors
+        },
         debug: false,
         outputDir: '/docs',
         files: [
