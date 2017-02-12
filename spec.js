@@ -1,17 +1,35 @@
 module.exports = {
     "/index.html": {
-        page: 'home'
+        page: 'home',
+        spec: {
+            '#pre-footer': {
+                component: 'next-edition'
+            }
+        }
     },
     "/contact.html": {
         page: 'contact'
     },
     "/code-of-conduct.html": {
-        page: 'code-of-conduct'
+        page: 'code-of-conduct',
+        spec: {
+            title: 'Code of Conduct - EnhanceConf'
+        }
     },
     "/terms.html": {
-        page: 'terms'
+        page: 'terms',
+        spec: {
+            title: 'Terms - EnhanceConf'
+        }
+    },
+    defaultSpec: {
+        title: 'EnhanceConf',
+        '#pre-footer': '&nbsp;'
     },
     options: {
+        validate: {
+            w3c: 'error' // stop build if w3c validation errors
+        },
         debug: false,
         outputDir: '/docs',
         files: [
@@ -40,7 +58,7 @@ module.exports = {
          'fonts/lato/LatoLatin-Light.eot',
          'fonts/lato/LatoLatin-Light.woff2',
          'fonts/lato/LatoLatin-Light.woff',
-        'fonts/lato/LatoLatin-Light.ttf',
+         'fonts/lato/LatoLatin-Light.ttf',
 
 
         'images/photo_bg.jpg',
