@@ -131,7 +131,7 @@ textarea:focus, input:focus, button:focus {
   width: 100%;
   min-height: 12%;
   z-index: 2;
-  padding-top: 1.8em;
+  padding-top: 2em;
   background: white; }
 
 div.content, footer {
@@ -154,15 +154,15 @@ header img.logo {
   width: 1.1em;
   height: auto;
   position: fixed;
+  top: 2em;
   width: 1.2em !important;
-  top: 5%;
   left: 4%; }
 
 nav.header_nav {
   list-style: none;
   position: fixed;
-  top: 1.2em;
-  right: 1em; }
+  right: 1em;
+  top: 2em; }
 
 nav.header_nav a {
   display: block; }
@@ -187,7 +187,7 @@ div.content#intro {
   padding-bottom: 3em; }
 
 div.intro-logo {
-  padding: 0em 0 2em 0; }
+  padding: 6em 0 2em 0; }
 
 div.intro-logo img {
   width: 100%;
@@ -256,15 +256,13 @@ div#footer_col1 h6 {
 footer a:hover {
   opacity: 0.6; }
 
-/* ----------------------------------------------
-
-                    >360px
-
---------------------------------------------- */
 @media only screen and (min-width: 360px) and (max-width: 569) {
-  /* ------------- Footer --------------- */
   ul.footer_nav li {
     margin: 0 4% !important; } }
+
+@media only screen and (min-width: 400px) {
+  div.intro-logo {
+    padding-top: 0px; } }
 
 /* ----------------------------------------------
 
