@@ -143,7 +143,7 @@ textarea:focus, input:focus, button:focus {
     width: 100%;
     min-height: 12%;
     z-index: 2;
-    padding-top: 1.8em;
+    padding-top: 2em;
     background: white;
 }
 
@@ -173,15 +173,17 @@ header img.logo {
     width: 1.1em;
     height: auto;
     position: fixed;
-    top: 1.5em;
-    left: 1em;
+    top: 2em;
+    width: 1.2em !important;
+    left: 4%;
+
 }
 
 nav.header_nav  {
     list-style: none;
     position: fixed;
-    top: 1.2em;
     right: 1em;
+    top: 2em;
 }
 
 nav.header_nav a {
@@ -207,12 +209,11 @@ header a:hover {opacity: 0.6;}
 /* ------------- INTRO --------------- */
 
 div.content#intro {
-    padding-top: 3em;
     padding-bottom: 3em;
 }
 
 div.intro-logo {
-    padding: 3em 0 2em 0;
+    padding: 6em 0 2em 0;
 
     }
 
@@ -283,19 +284,22 @@ div#footer_col1 h6 {margin: 3.5em 0 1.3em !important;}
 footer a:hover {opacity: 0.6;}
 
 
-/* ----------------------------------------------
-
-                    >360px
-
---------------------------------------------- */
 @media only screen and (min-width: #{$tiny-width}) and (max-width: #{$tablet-width}) {
- /* ------------- Footer --------------- */
-
     ul.footer_nav li {
         margin: 0 4% !important;
     }
-
 }
+
+
+@media only screen and (min-width:  #{$phone-width}) {
+    div.intro-logo {
+        padding-top: 0px;
+    }
+}
+
+
+
+
 /* ----------------------------------------------
 
                     Tablets
@@ -389,11 +393,6 @@ footer a:hover {opacity: 0.6;}
         background-color: transparent !important;
     }
 
-    header img.logo {
-        width: 1.2em !important;
-        top: 2em !important;
-        left: 2em !important;
-    }
 
 
 
