@@ -2,7 +2,7 @@
   "name": "enhanceconf-website",
   "version": "1.0.0",
   "scripts": {
-    "start": "speclate --debug 5006",
+    "start": "speclate --dev 5006",
     "build": "mkdir -p ./docs && npm run css && npm run js && npm run html",
     "watch": "npm run js-watch & npm run css-watch & npm run speclate-watch",
     "html": "speclate --build",
