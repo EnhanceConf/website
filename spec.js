@@ -39,7 +39,7 @@ module.exports = {
         'style/pure-0.6.0/grids-responsive-min.css',
         'client/index-compiled.js',
         'images/icons/chat_icon.svg',
-        'images/logo_main.png',
+        //'images/logo_main.png',
         'images/logo_main.svg',
 
         // avatars
