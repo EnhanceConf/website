@@ -8,30 +8,30 @@ if(history.pushState) {
 
     window.$ = require('jquery')
 
-    router({
-        after: function (error,  markup, page) {
-            var scrollTo = 0;
-            if(page.page !== 'home') {
-                scrollTo = $('#container').position().top - 30
-            }
-            $('html,body').scrollTop(scrollTo)
+    // router({
+    //     after: function (error,  markup, page) {
+    //         var scrollTo = 0;
+    //         if(page.page !== 'home') {
+    //             scrollTo = $('#container').position().top - 30
+    //         }
+    //         $('html,body').scrollTop(scrollTo)
 
-            analytics('send', 'pageview', {
-                page: window.location.pathname,
-                title: document.title
-            })
+    //         analytics('send', 'pageview', {
+    //             page: window.location.pathname,
+    //             title: document.title
+    //         })
 
-        },
-        error: function (err, $container) {
-            if (err) {
-                $container.html('<div class="markdown"><h1>Error</h1><p>Something went wrong fetching the page.</p><p>' + err + '</p></div>')
-            }
+    //     },
+    //     error: function (err, $container) {
+    //         if (err) {
+    //             $container.html('<div class="markdown"><h1>Error</h1><p>Something went wrong fetching the page.</p><p>' + err + '</p></div>')
+    //         }
 
-            analytics('send', 'exception', {
-                exDescription: err.message
-            })
-        }
-    })
+    //         analytics('send', 'exception', {
+    //             exDescription: err.message
+    //         })
+    //     }
+    // })
 
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('/service-worker.js').then(function (registration) {
