@@ -32,6 +32,7 @@ module.exports = {
         },
         debug: false,
         outputDir: '/docs',
+        appCacheFiles: ['appcache-loader.html'],
         files: [
         'style/all.css',
         'style/fonts.css',
