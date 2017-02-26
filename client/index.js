@@ -9,7 +9,8 @@ var consolePlugin = require('raven-js/plugins/console');
 
 Raven.config('https://8ccba625cd374b7b81cbc3ee8ea7c78a@sentry.io/139697').install()
 consolePlugin(Raven, console, {});
-if(history.pushState && typeof Promise !== 'undefined') {
+
+if(history.pushState) {
 
     analytics('send', 'event', 'history-push-state')
     window.$ = require('jquery')
