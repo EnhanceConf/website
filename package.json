@@ -19,7 +19,6 @@
   "devDependencies": {
     "appcache-nanny": "^1.1.0",
     "browserify": "14.x.x",
-    "ga-browser": "^1.0.0",
     "jquery": "^3.1.1",
     "node-sass": "^4.1.1",
     "nodemon": "^1.11.0",

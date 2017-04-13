@@ -7,7 +7,6 @@
 
 var router = require('speclate-router')
 var appCacheNanny = require('appcache-nanny')
-var analytics = require('ga-browser')(window)
 
 window.Raven = require('raven-js');
 var consolePlugin = require('raven-js/plugins/console');
