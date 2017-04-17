@@ -21,11 +21,7 @@ if(history.pushState) {
 
     router({
         after: function (error,  markup, page) {
-            var scrollTo = 0;
-            if(page.page !== 'home') {
-                scrollTo = $('#container').position().top - 30
-            }
-            $('html,body').scrollTop(scrollTo)
+            $('html,body').scrollTop(0)
 
             analytics('send', 'pageview', {
                 page: window.location.pathname,
