@@ -1,13 +1,22 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <style>
+        html #container,
+        html  #pre-footer,
+        html footer,
+        html #container {
+            opacity: 1;
+            transition: opacity .3s ease-in 0s;
+        }
+    </style>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>EnhanceConf</title>
 
     <link href="images/favicon.png" rel="icon" type="image/png">
 
-    <link href="style/all.css" media="screen, print" rel="stylesheet" type="text/css">
+    <link href="client/global-styles-compiled.css" media="screen, print" rel="stylesheet" type="text/css">
     <link href="style/fonts.css" rel="stylesheet" type="text/css" onload="if(media!='all')media='all'">
     <link rel="stylesheet" href="style/pure-0.6.0/pure-min.css">
     <!--[if lte IE 8]>

@@ -30,11 +30,15 @@ module.exports = {
         validate: {
             w3c: 'ignore' // stop build if w3c validation errors
         },
+        build: {
+            css: 'scss-global'
+        },
         debug: false,
         outputDir: '/docs',
+
         appCacheFiles: ['appcache-loader.html'],
         files: [
-        'style/all.css',
+        'client/global-styles-compiled.css',
         'style/fonts.css',
         'style/pure-0.6.0/pure-min.css',
         'style/pure-0.6.0/grids-responsive-min.css',

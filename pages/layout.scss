@@ -1,4 +1,6 @@
-@import './_variables';
+@import '../style/site/_variables';
+@import './components/loader/loader';
+
 
 /* ----------------------------------------------
 
@@ -6,7 +8,6 @@
 --------------------------------------------- */
 
 body {
-    background-color: #D4D8D9;
     font-style: normal;
     color: rgba(0,0,0,0.60);
     line-height: 1.7em;
