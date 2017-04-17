@@ -1,5 +1,6 @@
 docs
 node_modules
 client/index-compiled.js
+client/global-styles-compiled.css
 style/all.css
 .DS_Store
