@@ -24,7 +24,10 @@ module.exports = {
     },
     defaultSpec: {
         title: 'EnhanceConf',
-        '#pre-footer': '&nbsp;'
+        '#pre-footer': '&nbsp;',
+        '#footer': {
+            component: 'footer'
+        },
     },
     options: {
         validate: {

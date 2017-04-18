@@ -2,8 +2,17 @@
 
 
 
+html #container,
+html  #pre-footer,
+html footer {
+    opacity: 1;
+    transition: opacity .2s;
+}
+
+
 html.loading #container,
 html.loading  #pre-footer,
 html.loading footer {
-    opacity: 0 !important;
+    opacity: 0;
+    transition: opacity .2s;
 }

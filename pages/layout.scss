@@ -10,6 +10,7 @@
 body {
     font-style: normal;
     color: rgba(0,0,0,0.60);
+    background: #d8d8d8;
     line-height: 1.7em;
     letter-spacing: 0.0em;
     display: block;
@@ -202,9 +203,6 @@ nav.header_nav img {
 i.fa { color: #B4B4B4 !important; font-size: 1.3em;}
 
 
-header a , .footer_social a, #mc-embedded-subscribe {
-   transition: opacity .25s ease-in-out;
-}
 header a:hover {opacity: 0.6;}
 
 
@@ -406,6 +404,7 @@ footer a:hover {opacity: 0.6;}
         display: inline-block;
         margin: 0 0.4em !important;
     }
+
 
 
 
