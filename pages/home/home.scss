@@ -84,9 +84,6 @@ ul.attendee-notes {
     padding: 0 0 5em 5%;
 }
 
-ul.attendee-notes li a {
-    color:rgba(0, 0, 0, 0.44) !important;
-}
 ul.attendee-notes li:before {
     content: "• ";
     color: #8e8e8e !important;
@@ -104,7 +101,7 @@ ul.attendee-notes a:hover{
 
 div.content#last_edition {
     padding-top: 3em;
-    background-color: #F2F2F2;
+    background-color: #fbfbfb;
 }
 
 div#last_edition_text {

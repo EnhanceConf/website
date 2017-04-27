@@ -10,6 +10,7 @@
 body {
     font-style: normal;
     color: rgba(0,0,0,0.60);
+    background: #d8d8d8;
     line-height: 1.7em;
     letter-spacing: 0.0em;
     display: block;
@@ -94,8 +95,8 @@ footer p {
 .white, .white a {color: white !important;}
 .black, .black a {color: rgba(0,0,0,0.80) !important;}
 .gray, .gray a {color: rgba(0,0,0,0.55);}
-.lgray, .lgray a {color: rgba(26,25,25,0.3);}
-.green, .green a {color: #72be44 !important;}
+.lgray, .lgray a {color: #6c675f}
+.green, .green a {color: #387512 !important;}
 .magenta, .magenta a {color: #D91E57 !important;}
 
 
@@ -223,8 +224,9 @@ div.intro-logo img {
 
 /* ------------- Footer --------------- */
 
-footer {
-    background-color: #d8d8d8;
+#footer footer {
+    background-color: #eaeaea;
+    color: #eaeaea;
     padding-top: 2em !important;
     padding-bottom: 3em !important;
 }
@@ -411,6 +413,7 @@ footer a:hover {opacity: 0.6;}
 /* ------------- Footer --------------- */
 
     footer {
+        background: #e6e6e6;
         padding-top: 4em !important;
         padding-bottom: 2.9em !important;
     }

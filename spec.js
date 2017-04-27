@@ -76,6 +76,7 @@ module.exports = {
         'images/logo_symbol.svg',
         'images/dotjs-small.png',
         'images/favicon.png',
+        'images/favicon-144.png',
         'images/icons/twitter.svg',
         'images/icons/github.svg',
         'manifest.json'
