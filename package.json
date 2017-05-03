@@ -22,7 +22,7 @@
     "raven-js": "^3.11.0",
     "speclate": "14.x.x",
     "speclate-router": "8.x.x",
-    "speclate-service-worker": "1.3.x",
+    "speclate-service-worker": "1.4.x",
     "uglifyjs": "^2.4.10",
     "watchify": "^3.8.0"
   }
