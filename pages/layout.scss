@@ -20,6 +20,22 @@ body {
     -webkit-margin-end: 0px;
 }
 
+html[data-speclate-page="home"].loading body  {
+      background: #fff;
+}
+
+html.loading #container  {
+    opacity: 1;
+}
+
+html[data-speclate-page="terms"] body,
+html[data-speclate-page="code-of-conduct"] body,
+html[data-speclate-page="home"] body {
+    background: #eaeaea;
+}
+
+
+
 body p {
     font-family: Lato Light;
     font-weight: 100 !important;
