@@ -16,7 +16,8 @@
                 </div>
                 <div class="pure-u-1 pure-u-md-1 pure-u-lg-3-5">
                     <div id="video">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLXcpGvKha8IK5V8JpPU1majsBbAtM5wlT" allowfullscreen=""></iframe>
+                        <div class="youtube-player" data-id="VIDEO_ID"></div>
+                        <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLXcpGvKha8IK5V8JpPU1majsBbAtM5wlT" allowfullscreen=""></iframe>-->
                     </div>
                 </div>
             </div>
@@ -98,3 +99,38 @@
                 </div>
             </div>
         </div>
+
+        <script>
+
+    /* Light YouTube Embeds by @labnol */
+    /* Web: http://labnol.org/?p=27941 */
+
+    document.addEventListener("DOMContentLoaded",
+        function() {
+            var div, n,
+                v = document.getElementsByClassName("youtube-player");
+            for (n = 0; n < v.length; n++) {
+                div = document.createElement("div");
+                div.setAttribute("data-id", v[n].dataset.id);
+                div.innerHTML = labnolThumb(v[n].dataset.id);
+                div.onclick = labnolIframe;
+                v[n].appendChild(div);
+            }
+        });
+
+    function labnolThumb(id) {
+        var thumb = '<img src="https://i.ytimg.com/vi/ID/hqdefault.jpg">',
+            play = '<div class="play"></div>';
+        return thumb.replace("ID", id) + play;
+    }
+
+    function labnolIframe() {
+        var iframe = document.createElement("iframe");
+        var embed = "https://www.youtube.com/embed/ID?autoplay=1";
+        iframe.setAttribute("src", embed.replace("ID", this.dataset.id));
+        iframe.setAttribute("frameborder", "0");
+        iframe.setAttribute("allowfullscreen", "1");
+        this.parentNode.replaceChild(iframe, this);
+    }
+
+</script>
