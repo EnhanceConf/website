@@ -3,23 +3,52 @@
 <head>
     <style>
 
+body header {
+    background-color: transparent !important;
+    width: 100%;
+    height: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: none;
+}
+
+header img.logo {
+    width: 1.1em;
+    height: auto;
+    position: fixed;
+    top: 2em;
+    width: 1.2em !important;
+    left: 4%;
+
+}
+
+nav.header_nav  {
+    list-style: none;
+    position: fixed;
+    right: 1em;
+    top: 2em;
+}
+
+nav.header_nav a {
+    display: block;
+}
+
+nav.header_nav img {
+    width: 1.3em;
+    height: 100%;
+    margin-bottom: 0.03em;
+}
 
     </style>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>EnhanceConf</title>
-
+     <link href="client/global-styles-compiled.css" media="screen, print" rel="stylesheet" type="text/css">
     <link href="images/favicon.png" rel="icon" type="image/png">
 
-    <link href="client/global-styles-compiled.css" media="screen, print" rel="stylesheet" type="text/css">
-    <link href="style/fonts.css" rel="stylesheet" type="text/css" onload="if(media!='all')media='all'">
-    <link rel="stylesheet" href="style/pure-0.6.0/pure-min.css">
-    <!--[if lte IE 8]>
-    <link rel="stylesheet" href="style/pure-0.6.0/grids-responsive-old-ie-min.css">
-<![endif]-->
-<!--[if gt IE 8]><!-->
-    <link rel="stylesheet" href="style/pure-0.6.0/grids-responsive-min.css">
-<!--<![endif]-->
+
  <link rel="manifest" href="/manifest.json">
  <meta name="theme-color" content="#46483D">
 </head>
@@ -56,6 +85,31 @@
         <div id="pre-footer"></div>
         <div id="footer"></div>
     </div>
+    <noscript id="deferred-styles">
+
+    <link href="style/fonts.css" rel="stylesheet" type="text/css" onload="if(media!='all')media='all'">
+    <link rel="stylesheet" href="style/pure-0.6.0/pure-min.css">
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="style/pure-0.6.0/grids-responsive-old-ie-min.css">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="style/pure-0.6.0/grids-responsive-min.css">
+<!--<![endif]-->
+    </noscript>
+    <script>
+      var loadDeferredStyles = function() {
+        var addStylesNode = document.getElementById("deferred-styles");
+        var replacement = document.createElement("div");
+        replacement.innerHTML = addStylesNode.textContent;
+        document.body.appendChild(replacement)
+        addStylesNode.parentElement.removeChild(addStylesNode);
+      };
+      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+          webkitRequestAnimationFrame || msRequestAnimationFrame;
+      if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
+      else window.addEventListener('load', loadDeferredStyles);
+    </script>
+
     <script src="./client/index-compiled.js"></script>
 </body>
 </html>
