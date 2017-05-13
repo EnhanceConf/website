@@ -20,7 +20,7 @@
     "node-sass": "^4.1.1",
     "nodemon": "^1.11.0",
     "raven-js": "^3.11.0",
-    "speclate": "14.1.x",
+    "speclate": "14.2.x",
     "speclate-router": "8.x.x",
     "speclate-service-worker": "1.4.x",
     "uglifyjs": "^2.4.10",
