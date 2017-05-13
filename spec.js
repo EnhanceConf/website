@@ -49,6 +49,7 @@ module.exports = {
         'images/icons/chat_icon.svg',
         'images/logo_main.png',
         'images/logo_main.svg',
+        'images/video-placeholder.png',
 
         // avatars
         'images/avatars/dwyl.png',
