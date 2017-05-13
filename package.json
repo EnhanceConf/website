@@ -13,7 +13,7 @@
     "js-service-worker": "browserify ./client/service-worker.js > ./docs/service-worker.js",
     "js-watch": "watchify ./client/index.js -o ./client/index-compiled.js"
   },
-  "devDependencies": {
+  "dependencies": {
     "appcache-nanny": "^1.1.0",
     "browserify": "14.x.x",
     "jquery": "^3.1.1",
