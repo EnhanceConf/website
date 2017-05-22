@@ -2,11 +2,15 @@ module.exports = {
     "/index.html": {
         page: 'home',
         spec: {
+            '#video': {
+                component: 'video'
+            },
             '#pre-footer': {
                 component: 'next-edition'
             }
         }
     },
+
     "/contact.html": {
         page: 'contact'
     },
@@ -31,6 +35,7 @@ module.exports = {
     },
     options: {
         validate: {
+            //w3c: 'ignore' // stop build if w3c validation errors
             w3c: 'ignore' // stop build if w3c validation errors
         },
         build: {
@@ -38,7 +43,6 @@ module.exports = {
         },
         debug: false,
         outputDir: '/docs',
-
         appCacheFiles: ['appcache-loader.html'],
         files: [
         'client/global-styles-compiled.css',
@@ -49,7 +53,6 @@ module.exports = {
         'images/icons/chat_icon.svg',
         'images/logo_main.png',
         'images/logo_main.svg',
-        'images/video-placeholder.png',
 
         // avatars
         'images/avatars/dwyl.png',

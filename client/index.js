@@ -41,12 +41,12 @@ if(history.pushState) {
     })
 
     if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/service-worker.js').then(function (registration) {
-            analytics('send', 'event', 'service-worker-started')
-        }).catch(function (err) {
-            analytics('send', 'event', 'service-worker-register-failed')
-            console.error(err)
-        })
+        // navigator.serviceWorker.register('/service-worker.js').then(function (registration) {
+        //     analytics('send', 'event', 'service-worker-started')
+        // }).catch(function (err) {
+        //     analytics('send', 'event', 'service-worker-register-failed')
+        //     console.error(err)
+        // })
     } else {
         appCacheNanny.start()
         analytics('send', 'event', 'app-cache-nanny-started')
